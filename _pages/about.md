@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Testing Markdown"
+title: "YAML Practice"
 author_profile: true
 redirect_from: 
   - /about/
