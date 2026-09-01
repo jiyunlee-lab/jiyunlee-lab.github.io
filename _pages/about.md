@@ -4,9 +4,11 @@ permalink: /
 author_profile: true
 ---
 
-## We SHAPE better decisions for people and infrastructure under natural hazards.
-
 **SHAPE Lab** — *Simulation of Hazards, AI, People & Engineering Decisions*
+
+*AI and decision science for people and infrastructure under natural hazards.*
+
+## We SHAPE better decisions for people and infrastructure under natural hazards.
 
 Our research group explores how people, disasters, and the built environment interact in an increasingly complex world. We combine AI, simulation, data analytics, and decision science to understand human behavior and engineered systems under natural hazards and to develop smarter ways to anticipate, respond to, and manage risk. We are an interdisciplinary team of engineers, researchers, and students working at the intersection of humans, AI, and infrastructure to address real-world challenges.
 
