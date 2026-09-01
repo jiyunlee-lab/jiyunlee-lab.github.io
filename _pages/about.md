@@ -4,7 +4,7 @@ permalink: /
 author_profile: true
 ---
 
-**SHAPE Lab** — *Simulation of Hazards, AI, People & Engineering Decisions*
+**SHAPE Lab** — **S**imulation of **H**azards, **A**I, **P**eople & **E**ngineering Decisions
 
 *AI and decision science for people and infrastructure under natural hazards.*
 
