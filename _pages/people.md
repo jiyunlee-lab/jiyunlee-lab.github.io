@@ -34,7 +34,7 @@ Research Topics: Physics- and Data-driven Hurricane Vulnerability Assessment; Wi
 MS Student (Fall 2025 – Present)<br>
 Research Topics: Wildfire-Related Power Outage Prediction Model Using Satellite Imagery
 
-**Yihan Chen**<br>
+**Yihan Chen** — [yihan.chen@wsu.edu](mailto:yihan.chen@wsu.edu)<br>
 PhD Student (Fall 2026 – Present)<br>
 Research Topics: AI-Driven Modeling of Human Decision-Making Under Natural Hazards
 
