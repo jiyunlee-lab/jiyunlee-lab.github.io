@@ -15,7 +15,7 @@ Dr. Ji Yun Lee is an Associate Professor in the Department of Civil and Environm
 
 Dr. Lee leads the SHAPE Lab, combining AI, simulation, and decision science to understand how infrastructure systems and communities respond to natural hazards — helping decision-makers anticipate risk, design smarter policies, and build more resilient systems. Her research spans stochastic modeling of natural hazards, structural reliability and risk assessment, human decision-making, and infrastructure and community resilience.
 
-Dr. Lee's awards and honors include the ASCE State of the Art of Civil Engineering Award (2026), the Pacific Northwest Transportation Consortium (PacTrans) Outstanding Researcher Award (2025), the WSU CEE Outstanding Junior Faculty Research Award (2024), the NSF CAREER Award (2023), the Google Research Scholar Award (2022), and membership in the National Academy of Engineering (NAE) US Frontiers of Engineering program.
+Dr. Lee's awards and honors include the NSF CAREER Award (2023) and the Google Research Scholar Award (2022), along with the ASCE State of the Art of Civil Engineering Award (2026), the PacTrans Outstanding Researcher Award (2025), and the WSU CEE Outstanding Junior Faculty Research Award (2024). She is also a National Academy of Engineering (NAE) US Frontiers of Engineering (USFOE) alumna.
 
 ## Current Members
 
