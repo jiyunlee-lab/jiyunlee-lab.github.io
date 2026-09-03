@@ -1,5 +1,5 @@
 ---
-title: "From free-riding to collective action in wildfire mitigation: the role of policy incentives"
+title: "From Free-Riding to Collective Action in Wildfire Mitigation: The Role of Policy Incentives"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-01-01-wildfire-mitigation-policy
