@@ -1,5 +1,5 @@
 ---
-title: "Surrogate-based fragility modeling framework for system-level wind damage assessment of transmission towers"
+title: "Surrogate-Based Fragility Modeling Framework for System-Level Wind Damage Assessment of Transmission Towers"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-03-27-transmission-tower-fragility
