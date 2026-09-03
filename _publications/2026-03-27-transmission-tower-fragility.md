@@ -3,7 +3,7 @@ title: "Surrogate-Based Fragility Modeling Framework for System-Level Wind Damag
 collection: publications
 category: manuscripts
 permalink: /publication/2026-03-27-transmission-tower-fragility
-excerpt: 'A surrogate modeling framework for system-level wind damage assessment of transmission towers.'
+excerpt: 'This study develops a generalized surrogate wind fragility modeling framework for transmission towers applicable to a wide range of transmission tower designs and geographic locations across the United States.'
 date: 2026-03-27
 venue: 'Engineering Structures'
 paperurl: 'https://doi.org/10.1016/j.engstruct.2026.122642'
