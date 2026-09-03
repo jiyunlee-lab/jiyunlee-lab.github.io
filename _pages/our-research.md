@@ -1,10 +1,6 @@
 ---
-layout: archive
 title: "Research"
 permalink: /our-research/
-author_profile: true
 ---
 
-{% include base_path %}
-
-Our research is inherently interdisciplinary, drawing on a wide range of methods – including AI and machine learning, stochastic and computational simulation, engineering models, and social science approaches such as interviews and surveys – to tackle large-scale, uncertain, and complex risk problems across the themes below.
+If you can see this, the research page works.
