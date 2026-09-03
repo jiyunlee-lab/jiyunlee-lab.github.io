@@ -1,10 +1,10 @@
 ---
-title: "Paper Title Here"
+title: "From free-riding to collective action in wildfire mitigation: the role of policy incentives"
 collection: publications
-permalink: /publication/YYYY-MM-DD-short-title-slug
-excerpt: 'One sentence describing the paper.'
-date: YYYY-MM-DD
-venue: 'Journal Name'
-paperurl: 'https://doi.org/xxxxx'
-citation: 'Author, A. and Author, B. (Year). "Title." <i>Journal Name</i>, volume(issue), pages.'
+permalink: /publication/2026-01-01-wildfire-mitigation-policy
+excerpt: 'Examines how policy incentives can shift wildfire mitigation from free-riding to collective action.'
+date: 2026-01-01
+venue: 'Expert Systems with Applications'
+paperurl: 'https://doi.org/10.1016/j.eswa.2026.1329000'
+citation: 'Wang, Z-J. and Lee, J.Y. (2026). "From free-riding to collective action in wildfire mitigation: the role of policy incentives." <i>Expert Systems with Applications</i>, 331, Part B, 1329000.'
 ---
