@@ -1,6 +1,14 @@
 ---
+layout: archive
 title: "Research"
-permalink: /our-research/
+permalink: /research/
+author_profile: true
 ---
 
-If you can see this, the research page works.
+{% include base_path %}
+
+Our research is inherently interdisciplinary, drawing on a wide range of methods — including AI and machine learning, stochastic and computational simulation, engineering models, and social science approaches such as interviews and surveys — to tackle large-scale, uncertain, and complex risk problems across the themes below.
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
