@@ -94,6 +94,20 @@
   }
 }
 
+/* Banner title and subtitle */
+.page__hero--overlay .wrapper {
+  text-align: center;
+}
+
+.page__hero--overlay .page__lead {
+  max-width: none;
+  margin: 0.5rem auto 0;
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
 .home-news-item {
   margin-bottom: 1.4rem;
 }
