@@ -7,4 +7,4 @@ tags:
   - publications
 ---
 
-Our guidance document, "Structural Reliability Guidance in ASCE 7-22: Principles and Methods," has been published by the American Society of Civil Engineers. Please find it here.
+Our guidance document, "Structural Reliability Guidance in ASCE 7-22: Principles and Methods," has been published by the American Society of Civil Engineers. Please find it [here](https://doi.org/10.1061/9780784486337).
