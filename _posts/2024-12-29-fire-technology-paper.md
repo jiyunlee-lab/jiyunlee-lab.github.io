@@ -7,4 +7,4 @@ tags:
   - publications
 ---
 
-Our paper, "Understanding Evacuation Behavior During Wildfires: Exploring Key Factors Affecting Evacuee Behaviors and Developing Predictive Models for Decision-Making," has been published in Fire Technology. Please find the full paper here.
+Our paper, "Understanding Evacuation Behavior During Wildfires: Exploring Key Factors Affecting Evacuee Behaviors and Developing Predictive Models for Decision-Making," has been published in Fire Technology. Please find the full paper [here](https://doi.org/10.1007/s10694-024-01683-w).
