@@ -4,8 +4,8 @@ permalink: /
 author_profile: true
 
 header:
-  overlay_image: /images/home-banner.png
-  overlay_filter: 0.3
+  image: /images/home-banner.png
+  image_description: "A distant wildfire behind a forested landscape"
 ---
 
 **SHAPE Lab** — **S**imulation of **H**azards, **A**I, **P**eople & **E**ngineering Decisions
