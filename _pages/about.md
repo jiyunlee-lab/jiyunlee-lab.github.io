@@ -20,8 +20,8 @@ Our research group explores how people, disasters, and the built environment int
 
 ## Recent News
 
-**Our recent work featured on WSU Insider** (August 2026)
-Our research on game-theoretic models for wildfire subsidy design was featured in WSU Insider. The study, published in *Expert Systems with Applications*, explores how subsidy programs can be designed to overcome "free riding" and encourage broader wildfire preparedness in communities facing wildfire risk. [Read the article →](https://news.wsu.edu/press-release/2026/08/06/model-could-help-communities-set-effective-subsidies-for-wildfire-mitigation/)
+{% for post in site.posts limit:2 %}
+**[{{ post.title }}]({{ post.url | relative_url }})** ({{ post.date | date: "%B %Y" }})<br>
+{{ post.content }}
 
-**Congratulations to Dr. Nasimeh Rashidi!** (July 2026)
-Nasimeh Rashidi successfully defended her PhD dissertation, *"Advancing Wildfire Resilience through Improved Understanding of Fuels, Institutions, and Homeowner Decisions."* Congratulations, Dr. Rashidi!
+{% endfor %}
