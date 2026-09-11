@@ -7,4 +7,4 @@ tags:
   - media
 ---
 
-Our research on predicting transmission tower failure in extreme wind events is featured on WSU Insider. Please find the link below.
+Our research on predicting transmission tower failure in extreme wind events is featured on WSU Insider. Please find the link [here](https://news.wsu.edu/press-release/2026/05/04/researchers-get-a-better-picture-of-power-failures-during-extreme-wind-events/).
