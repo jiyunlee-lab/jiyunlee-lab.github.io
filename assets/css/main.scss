@@ -37,3 +37,33 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Homepage banner */
+.home-page .page__hero--overlay {
+  min-height: 250px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-position: center 72% !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Keep the author profile below the banner */
+.home-page .sidebar {
+  margin-top: 1.5rem !important;
+  transform: none !important;
+}
+
+.home-page .author__avatar {
+  margin-top: 0 !important;
+  transform: none !important;
+}
+
+/* Smaller banner on phones */
+@media (max-width: 63.99em) {
+  .home-page .page__hero--overlay {
+    min-height: 180px;
+    background-position: center 72% !important;
+  }
+}
