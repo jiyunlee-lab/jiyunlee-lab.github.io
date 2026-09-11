@@ -7,4 +7,4 @@ tags:
   - media
 ---
 
-Our research on game-theoretic models for wildfire subsidy design was featured in WSU Insider. Please find the link below.
+Our research on game-theoretic models for wildfire subsidy design was featured in WSU Insider. Please find the link [here](https://news.wsu.edu/press-release/2026/08/06/model-could-help-communities-set-effective-subsidies-for-wildfire-mitigation/).
