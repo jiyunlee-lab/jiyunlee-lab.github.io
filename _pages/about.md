@@ -1,11 +1,13 @@
 ---
+layout: single
 title: "SHAPE Lab"
 permalink: /
 author_profile: true
-
+classes: home-page
 header:
-  image: /images/home-banner.png
-  image_description: "A distant wildfire behind a forested landscape"
+  overlay_image: "https://jiyunlee-lab.github.io/images/home-banner.png"
+  overlay_filter: 0.15
+  image_description: "A calm panoramic view of distant wildfire smoke over a forest"
 ---
 
 **SHAPE Lab** — **S**imulation of **H**azards, **A**I, **P**eople & **E**ngineering Decisions
