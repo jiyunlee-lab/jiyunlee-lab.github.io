@@ -21,7 +21,7 @@ Our research group explores how people, disasters, and the built environment int
 
 ## Recent News
 
-{% for post in site.posts limit:2 %}
+{% for post in site.posts limit:3 %}
 **[{{ post.title }}]({{ post.url | relative_url }})** ({{ post.date | date: "%B %Y" }})<br>
 {{ post.content }}
 
