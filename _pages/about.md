@@ -5,10 +5,42 @@ permalink: /
 author_profile: true
 classes: home-page
 header:
-  overlay_image: "https://jiyunlee-lab.github.io/images/home-banner.png"
+  overlay_image: "/images/home-banner.png"
   overlay_filter: 0.15
   image_description: "A calm panoramic view of distant wildfire smoke over a forest"
 ---
+
+<style>
+.page__hero--overlay {
+  height: 260px !important;
+  min-height: 260px !important;
+  padding: 0 !important;
+  background-position: center 72% !important;
+  background-size: cover !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+@media (min-width: 64em) {
+  #main .sidebar {
+    margin-top: 1.5rem !important;
+    transform: none !important;
+  }
+
+  #main .author__avatar {
+    position: static !important;
+    margin-top: 0 !important;
+    transform: none !important;
+  }
+}
+
+@media (max-width: 63.99em) {
+  .page__hero--overlay {
+    height: 180px !important;
+    min-height: 180px !important;
+  }
+}
+</style>
 
 **SHAPE Lab** — **S**imulation of **H**azards, **A**I, **P**eople & **E**ngineering Decisions
 
