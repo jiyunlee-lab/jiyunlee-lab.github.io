@@ -3,7 +3,7 @@ title: "SHAPE Lab"
 permalink: /
 author_profile: true
 header:
-  overlay_image: /images/home-banner.jpg
+  overlay_image: /images/home-banner.png
   overlay_filter: 0.3
 ---
 
