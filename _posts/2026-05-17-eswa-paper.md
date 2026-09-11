@@ -7,4 +7,4 @@ tags:
   - publications
 ---
 
-Our paper, "From Free-Riding to Collective Action in Wildfire Mitigation: The Role of Policy Incentives," has been published in Expert Systems with Applications. Please find the full paper here.
+Our paper, "From Free-Riding to Collective Action in Wildfire Mitigation: The Role of Policy Incentives," has been published in Expert Systems with Applications. Please find the full paper [here](https://doi.org/10.1016/j.eswa.2026.132900).
