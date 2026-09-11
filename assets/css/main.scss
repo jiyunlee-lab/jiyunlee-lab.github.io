@@ -38,37 +38,55 @@
     "layout/json_cv"
 ;
 
-/* Homepage banner */
+/* =========================================================
+   Homepage banner
+   ========================================================= */
+
 .page__hero--overlay {
   height: 260px !important;
   min-height: 260px !important;
   padding: 0 !important;
 
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("https://jiyunlee-lab.github.io/images/home-banner.png") !important;
+    linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ),
+    url("https://junlee-lab.github.io/images/home-banner.png") !important;
 
   background-position: center 72% !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
+
   display: flex !important;
   align-items: center !important;
 }
 
-/* Move the profile below the banner */
-body.home-page #main .sidebar {
-  margin-top: 1.5rem !important;
-  position: static !important;
-  transform: none !important;
+/* =========================================================
+   Author profile
+   Remove the negative positioning used by the theme
+   ========================================================= */
+
+@media (min-width: 64em) {
+  #main .sidebar {
+    margin-top: 1.5rem !important;
+    position: static !important;
+    top: auto !important;
+    transform: none !important;
+  }
+
+  #main .author__avatar {
+    position: static !important;
+    margin-top: 0 !important;
+    top: auto !important;
+    transform: none !important;
+  }
 }
 
-body.home-page #main .author__avatar {
-  position: static !important;
-  margin-top: 0 !important;
-  transform: none !important;
-}
+/* =========================================================
+   Mobile banner
+   ========================================================= */
 
-/* Smaller banner on phones */
 @media (max-width: 63.99em) {
   .page__hero--overlay {
     height: 180px !important;
