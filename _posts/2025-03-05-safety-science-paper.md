@@ -7,4 +7,4 @@ tags:
   - publications
 ---
 
-Our paper, "Analyzing Wildfire Evacuation Dynamics with Agent-Based Modeling in Damaged Road Networks," has been published in Safety Science. Please find the full paper here.
+Our paper, "Analyzing Wildfire Evacuation Dynamics with Agent-Based Modeling in Damaged Road Networks," has been published in Safety Science. Please find the full paper [here](https://doi.org/10.1016/j.ssci.2025.106835).
