@@ -6,12 +6,11 @@ author_profile: false
 
 ## Get in Touch
 
-**Dr. Ji Yun Lee**
-Associate Professor, Department of Civil and Environmental Engineering
+**Dr. Ji Yun Lee**, Associate Professor, Department of Civil and Environmental Engineering<br>
 Washington State University
 
-Address: 2001 Grimes Way, PACCAR 158, Pullman, WA 99164
-Email: [jiyun.lee@wsu.edu](mailto:jiyun.lee@wsu.edu)
+Address: 2001 Grimes Way, PACCAR 158, Pullman, WA 99164<br>
+Email: [jiyun.lee@wsu.edu](mailto:jiyun.lee@wsu.edu)<br>
 Phone: 509-335-3018
 
 ## Prospective Students
