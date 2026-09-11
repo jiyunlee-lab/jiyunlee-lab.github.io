@@ -39,31 +39,35 @@
 ;
 
 /* Homepage banner */
-.home-page .page__hero--overlay {
-  min-height: 250px;
-  padding: 0;
-  display: flex;
-  align-items: center;
+.page__hero--overlay {
+  height: 260px !important;
+  min-height: 260px !important;
+  padding: 0 !important;
   background-position: center 72% !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
-/* Keep the author profile below the banner */
-.home-page .sidebar {
-  margin-top: 1.5rem !important;
-  transform: none !important;
-}
+/* Keep the author profile below a banner */
+@media (min-width: 64em) {
+  .page__hero--overlay ~ #main .sidebar {
+    margin-top: 1.5rem !important;
+    transform: none !important;
+  }
 
-.home-page .author__avatar {
-  margin-top: 0 !important;
-  transform: none !important;
+  .page__hero--overlay ~ #main .author__avatar {
+    position: static !important;
+    margin-top: 0 !important;
+    transform: none !important;
+  }
 }
 
 /* Smaller banner on phones */
 @media (max-width: 63.99em) {
-  .home-page .page__hero--overlay {
-    min-height: 180px;
-    background-position: center 72% !important;
+  .page__hero--overlay {
+    height: 180px !important;
+    min-height: 180px !important;
   }
 }
