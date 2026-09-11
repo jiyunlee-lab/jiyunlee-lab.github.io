@@ -43,6 +43,11 @@
   height: 260px !important;
   min-height: 260px !important;
   padding: 0 !important;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+    url("https://jiyunlee-lab.github.io/images/home-banner.png") !important;
+
   background-position: center 72% !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -50,18 +55,17 @@
   align-items: center !important;
 }
 
-/* Keep the author profile below a banner */
-@media (min-width: 64em) {
-  .page__hero--overlay ~ #main .sidebar {
-    margin-top: 1.5rem !important;
-    transform: none !important;
-  }
+/* Move the profile below the banner */
+body.home-page #main .sidebar {
+  margin-top: 1.5rem !important;
+  position: static !important;
+  transform: none !important;
+}
 
-  .page__hero--overlay ~ #main .author__avatar {
-    position: static !important;
-    margin-top: 0 !important;
-    transform: none !important;
-  }
+body.home-page #main .author__avatar {
+  position: static !important;
+  margin-top: 0 !important;
+  transform: none !important;
 }
 
 /* Smaller banner on phones */
