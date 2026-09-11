@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "SHAPE Lab"
+excerpt: "Simulation of Hazards, AI, People & Engineering Decisions"
 permalink: /
 author_profile: true
 classes: home-page
