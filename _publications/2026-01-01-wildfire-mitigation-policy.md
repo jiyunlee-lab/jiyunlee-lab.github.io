@@ -2,6 +2,9 @@
 title: "From Free-Riding to Collective Action in Wildfire Mitigation: The Role of Policy Incentives"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - decisions
 permalink: /publication/2026-01-01-wildfire-mitigation-policy
 excerpt: 'This study develops a game-theoretic model showing how well-designed subsidies and early participation can shift homeowners from free-riding to collective wildfire mitigation.'
 date: 2026-01-01
