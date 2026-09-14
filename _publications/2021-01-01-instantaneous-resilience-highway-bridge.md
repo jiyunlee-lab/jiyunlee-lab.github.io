@@ -2,6 +2,8 @@
 title: "Measuring Instantaneous Resilience of a Highway Bridge Subjected to Earthquake Events"
 collection: publications
 category: manuscripts
+research_themes:
+  - structures
 permalink: /publication/2021-01-01-instantaneous-resilience-highway-bridge
 excerpt: 'This study develops a computationally efficient instantaneous-resilience metric that combines bridge robustness and structural redundancy to quantify a highway bridge’s capacity immediately after an earthquake.'
 date: 2021-01-01
