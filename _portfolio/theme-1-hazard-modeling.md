@@ -2,6 +2,9 @@
 title: "Stochastic Modeling & Simulation of Natural Hazards"
 excerpt: "Probabilistic models and simulations of wildfires, hurricanes, tornadoes, and earthquakes, incorporating machine learning and deep learning methods."
 collection: portfolio
+order: 1
+icon: "fas fa-chart-line"
+accent: "terracotta"
 ---
 
 We develop stochastic models and simulations to characterize natural hazards — including wildfires, hurricanes, tornadoes, and earthquakes — capturing their inherent uncertainty and variability. Grounded in probability and statistics, this work increasingly incorporates machine learning and deep learning-based methods to produce more realistic hazard characterizations that support downstream risk and vulnerability assessments.
