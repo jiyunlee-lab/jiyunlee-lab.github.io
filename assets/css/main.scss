@@ -267,4 +267,29 @@
   padding-right: 0 !important;
 }
 
+/* ==========================================
+   Publications: year headings
+   ========================================== */
 
+.publication-year-group {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.publication-year {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin: 0 0 1.5rem;
+  color: #c65332;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.publication-year::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #dfd2bd;
+}
