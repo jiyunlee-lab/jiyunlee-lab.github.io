@@ -335,3 +335,120 @@
   margin-top: 0.75rem;
   margin-bottom: 0;
 }
+
+/* ==========================================
+   Publications: buttons and details
+   ========================================== */
+
+.publication-meta {
+  margin: 0.6rem 0 1rem;
+  color: #5e594f;
+}
+
+.publication-actions {
+  margin: 0 0 0.7rem;
+}
+
+.publication-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+
+  padding: 0.45rem 0.8rem;
+  color: #fff !important;
+  background: #c65332;
+  border-radius: 6px;
+
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.publication-button:hover {
+  color: #fff !important;
+  background: #a94228;
+  transform: translateY(-1px);
+}
+
+.publication-button i {
+  font-size: 0.75rem;
+}
+
+/* Expand/collapse control */
+
+.publication-details {
+  margin-top: 0.5rem;
+}
+
+.publication-details summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 0.42rem 0.75rem;
+  color: #6f7f66;
+  background: transparent;
+  border: 1px solid #aeb8a6;
+  border-radius: 6px;
+
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+  transition:
+    color 0.2s ease,
+    background 0.2s ease;
+}
+
+.publication-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.publication-details summary::before {
+  content: "+";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1.1rem;
+  height: 1.1rem;
+  color: #fff;
+  background: #7b8870;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.publication-details[open] summary::before {
+  content: "−";
+}
+
+.publication-details summary:hover {
+  color: #58654f;
+  background: #edf0e9;
+}
+
+/* Expanded content */
+
+.publication-details-content {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  background: #f2eee5;
+  border-radius: 8px;
+  color: #4f4a42;
+}
+
+.publication-details-content strong {
+  color: #c65332;
+}
+
+.publication-details-content p {
+  margin: 0.35rem 0 1rem;
+}
+
+.publication-details-content > div:last-child p {
+  margin-bottom: 0;
+}
