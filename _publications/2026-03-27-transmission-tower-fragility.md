@@ -2,6 +2,9 @@
 title: "Surrogate-Based Fragility Modeling Framework for System-Level Wind Damage Assessment of Transmission Towers"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - structures
 permalink: /publication/2026-03-27-transmission-tower-fragility
 excerpt: 'This study develops a generalized surrogate wind fragility modeling framework for transmission towers applicable to a wide range of transmission tower designs and geographic locations across the United States.'
 date: 2026-03-27
