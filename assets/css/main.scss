@@ -255,3 +255,13 @@
 .research-theme-card:hover .research-theme-visual img {
   transform: scale(1.035);
 }
+
+/* Expand archive pages when the author sidebar is disabled */
+#main:not(:has(.sidebar)) .archive {
+  float: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
