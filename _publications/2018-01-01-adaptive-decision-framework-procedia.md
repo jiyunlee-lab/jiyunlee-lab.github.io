@@ -2,6 +2,10 @@
 title: "Adaptive Decision Framework for Civil Infrastructure Exposed to Evolving Risks"
 collection: publications
 category: manuscripts
+research_themes:
+  - structures
+  - infrastructure
+  - decisions
 permalink: /publication/2018-01-01-adaptive-decision-framework-procedia
 excerpt: 'This study develops an adaptive decision-making framework for civil infrastructure exposed to evolving risks, enabling continuous risk reassessment and flexible management strategies.'
 date: 2018-01-01
