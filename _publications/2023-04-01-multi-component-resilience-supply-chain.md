@@ -2,6 +2,9 @@
 title: "Multi-Component Resilience Assessment Framework for a Supply Chain System"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - infrastructure
 permalink: /publication/2023-04-01-multi-component-resilience-supply-chain
 excerpt: 'This study develops a quantitative, multi-component framework that assesses long-term supply-chain resilience by accounting for hazard-induced losses, non-hazard disruptions, and opportunity-driven gains.'
 date: 2023-04-01
