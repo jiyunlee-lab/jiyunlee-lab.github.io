@@ -452,3 +452,87 @@
 .publication-details-content > div:last-child p {
   margin-bottom: 0;
 }
+
+/* ==========================================
+   Publications: search
+   ========================================== */
+
+.publication-tools {
+  margin: 2rem 0 2.5rem;
+}
+
+.publication-search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 760px;
+
+  background: #fbf8f1;
+  border: 1px solid #d8cebd;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(70, 60, 45, 0.06);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.publication-search-box:focus-within {
+  border-color: #7b8870;
+  box-shadow: 0 0 0 3px rgba(123, 136, 112, 0.16);
+}
+
+.publication-search-box > i {
+  position: absolute;
+  left: 1rem;
+  color: #7b8870;
+  pointer-events: none;
+}
+
+#publication-search {
+  width: 100%;
+  padding: 0.85rem 5rem 0.85rem 2.8rem;
+
+  color: #403c35;
+  background: transparent;
+  border: 0;
+  outline: 0;
+
+  font: inherit;
+  font-size: 1rem;
+}
+
+#publication-search::placeholder {
+  color: #918a7e;
+}
+
+#publication-search-clear {
+  position: absolute;
+  right: 0.8rem;
+
+  padding: 0.3rem 0.55rem;
+  color: #c65332;
+  background: transparent;
+  border: 0;
+
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#publication-search-clear:hover {
+  color: #a94228;
+  text-decoration: underline;
+}
+
+#publication-search-clear[hidden] {
+  display: none;
+}
+
+#publication-search-status {
+  min-height: 1.3rem;
+  margin: 0.55rem 0 0 0.2rem;
+  color: #6f7f66;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
