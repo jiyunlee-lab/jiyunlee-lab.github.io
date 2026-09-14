@@ -2,6 +2,9 @@
 title: "Structural Reliability Guidance in ASCE 7-22: Principles and Methods"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - structures
 permalink: /publication/2025-01-01-asce-structural-reliability-guidance
 excerpt: 'This book guides structural engineers through the history and concepts behind the development of probability-based limit state design (PBLSD) underlying ASCE 7-22.'
 date: 2025-01-01
