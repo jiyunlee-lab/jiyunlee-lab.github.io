@@ -2,6 +2,11 @@
 title: "Managing Risks to Civil Infrastructure due to Natural Hazards: Communicating Long-Term Risks due to Climate Change"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - structures
+  - infrastructure
+  - decisions
 permalink: /publication/2016-01-01-managing-risks-climate-change-chapter
 excerpt: 'This book chapter examines key considerations for assessing and communicating long-term natural-hazard risks to multigenerational civil infrastructure under a changing climate.'
 date: 2016-01-01
