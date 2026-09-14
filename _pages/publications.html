@@ -31,6 +31,47 @@ author_profile: false
     </button>
   </div>
 
+<div class="publication-filters"
+     role="group"
+     aria-label="Filter publications by research theme">
+
+  <button type="button"
+          class="publication-filter is-active"
+          data-theme="all"
+          aria-pressed="true">
+    All
+  </button>
+
+  <button type="button"
+          class="publication-filter"
+          data-theme="hazards"
+          aria-pressed="false">
+    Hazards
+  </button>
+
+  <button type="button"
+          class="publication-filter"
+          data-theme="structures"
+          aria-pressed="false">
+    Structures
+  </button>
+
+  <button type="button"
+          class="publication-filter"
+          data-theme="infrastructure"
+          aria-pressed="false">
+    Infrastructure
+  </button>
+
+  <button type="button"
+          class="publication-filter"
+          data-theme="decisions"
+          aria-pressed="false">
+    Human Decisions
+  </button>
+
+</div>
+  
   <p id="publication-search-status" aria-live="polite"></p>
 </div>
 
@@ -94,13 +135,19 @@ document.addEventListener("DOMContentLoaded", function () {
   const clearButton = document.getElementById("publication-search-clear");
   const statusText = document.getElementById("publication-search-status");
 
+  const filterButtons = Array.from(
+    document.querySelectorAll(".publication-filter")
+  );
+
   const publicationCards = Array.from(
-    document.querySelectorAll(".publication-year-items .list__item")
+    document.querySelectorAll(".publication-card")
   );
 
   const yearGroups = Array.from(
     document.querySelectorAll(".publication-year-group")
   );
+
+  let activeTheme = "all";
 
   function updatePublications() {
     const query = searchInput.value.trim().toLowerCase();
@@ -108,18 +155,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
     publicationCards.forEach(function (card) {
       const cardText = card.textContent.toLowerCase();
-      const matches = query === "" || cardText.includes(query);
 
-      card.hidden = !matches;
+      const cardThemes = (card.dataset.themes || "")
+        .toLowerCase()
+        .split(/\s+/)
+        .filter(Boolean);
 
-      if (matches) {
+      const matchesSearch =
+        query === "" || cardText.includes(query);
+
+      const matchesTheme =
+        activeTheme === "all" ||
+        cardThemes.includes(activeTheme);
+
+      const isVisible = matchesSearch && matchesTheme;
+
+      card.hidden = !isVisible;
+
+      if (isVisible) {
         visibleCount += 1;
       }
     });
 
     yearGroups.forEach(function (group) {
       const visibleCards = group.querySelectorAll(
-        ".publication-year-items .list__item:not([hidden])"
+        ".publication-card:not([hidden])"
       );
 
       group.hidden = visibleCards.length === 0;
@@ -127,14 +187,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     clearButton.hidden = query === "";
 
-    if (query === "") {
-      statusText.textContent =
-        publicationCards.length + " publications";
-    } else if (visibleCount === 1) {
-      statusText.textContent = "1 publication found";
+    if (visibleCount === 1) {
+      statusText.textContent = "1 publication shown";
     } else {
       statusText.textContent =
-        visibleCount + " publications found";
+        visibleCount + " publications shown";
     }
   }
 
@@ -144,6 +201,24 @@ document.addEventListener("DOMContentLoaded", function () {
     searchInput.value = "";
     searchInput.focus();
     updatePublications();
+  });
+
+  filterButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      activeTheme = button.dataset.theme;
+
+      filterButtons.forEach(function (item) {
+        const isActive = item === button;
+
+        item.classList.toggle("is-active", isActive);
+        item.setAttribute(
+          "aria-pressed",
+          isActive ? "true" : "false"
+        );
+      });
+
+      updatePublications();
+    });
   });
 
   updatePublications();
