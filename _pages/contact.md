@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 permalink: /contact/
-author_profile: false
+author_profile: true
 ---
 
 ## Get in Touch
