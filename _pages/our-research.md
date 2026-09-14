@@ -18,9 +18,13 @@ Our research is inherently interdisciplinary, drawing on a wide range of methods
       href="{{ post.url | relative_url }}"
       aria-label="Learn more about {{ post.title }}"
     >
-      <span class="research-theme-icon" aria-hidden="true">
-        <i class="{{ post.icon }}"></i>
-      </span>
+      <div class="research-theme-visual">
+        <img
+          src="{{ post.card_image | relative_url }}"
+          alt=""
+          loading="lazy"
+        >
+      </div>
 
       <h2 class="research-theme-title">
         {{ post.title }}
