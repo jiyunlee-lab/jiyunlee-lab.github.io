@@ -2,6 +2,8 @@
 title: "Multi-Objective Performance-Based Design Optimization of a Controlled Rocking Steel Braced Frame System"
 collection: publications
 category: manuscripts
+research_themes:
+  - structures
 permalink: /publication/2019-05-01-crsbf-multi-objective-optimization
 excerpt: 'This study develops a multi-objective performance-based design optimization framework for controlled rocking steel braced frames that minimizes initial construction costs and earthquake-induced economic and environmental impacts.'
 date: 2019-05-01
