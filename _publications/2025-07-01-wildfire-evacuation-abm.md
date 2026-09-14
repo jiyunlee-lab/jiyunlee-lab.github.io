@@ -2,6 +2,9 @@
 title: "Analyzing Wildfire Evacuation Dynamics with Agent-Based Modeling in Damaged Road Networks"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - decisions
 permalink: /publication/2025-07-01-wildfire-evacuation-abm
 excerpt: 'This study develops an integrated agent-based modeling framework to analyze wildfire evacuation dynamics while accounting for fire propagation, evacuee behavior, and fire-induced damage to road networks.'
 date: 2025-07-01
