@@ -2,6 +2,10 @@
 title: "Life Cycle Performance Goals for Civil Infrastructure: Intergenerational Risk-Informed Decisions"
 collection: publications
 category: manuscripts
+research_themes:
+  - structures
+  - infrastructure
+  - decisions
 permalink: /publication/2016-01-01-life-cycle-performance-goals
 excerpt: 'This study proposes an intergenerational risk-informed approach for establishing life-cycle performance goals for long-lived civil infrastructure while accounting for time-dependent reliability, sustainability, and equitable risk sharing.'
 date: 2016-01-01
