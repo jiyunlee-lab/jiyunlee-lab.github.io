@@ -595,3 +595,9 @@
 #publication-search-status {
   margin-top: 0.75rem;
 }
+
+/* Publications page title */
+.archive:has(#publication-search) .page__title {
+  font-size: 2rem !important;
+  line-height: 1.2;
+}
