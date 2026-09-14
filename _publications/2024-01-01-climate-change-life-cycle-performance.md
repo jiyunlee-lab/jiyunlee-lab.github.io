@@ -2,6 +2,10 @@
 title: "Effects of Climate Change on Life-Cycle Performance of Structures and Infrastructure Systems: Safety, Reliability, and Risk"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - structures
+  - infrastructure
 permalink: /publication/2024-01-01-climate-change-life-cycle-performance
 excerpt: 'This book presents and explores efforts to implement criteria, techniques, and tools for the life-cycle design, assessment, maintenance, and management of civil structures and infrastructure systems under climate change.'
 date: 2024-01-01
