@@ -2,6 +2,9 @@
 title: "Human Decision-Making & Behavior"
 excerpt: "Understanding individual, community, and institutional decision-making under natural hazard risk using agent-based, game-theoretic, and AI-driven models."
 collection: portfolio
+order: 4
+icon: "fas fa-people-group"
+accent: "terracotta"
 ---
 
 We study how individuals, communities, and institutions make decisions under natural hazard risk — and how these levels interact with one another. This includes homeowner mitigation and evacuation behavior, collective and neighbor-to-neighbor dynamics within communities, and citizen-government interactions in policy design. We apply agent-based, game-theoretic, and AI-driven models to understand and improve decision-making across these interconnected levels.
