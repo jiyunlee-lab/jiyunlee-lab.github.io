@@ -21,7 +21,7 @@ Dr. Lee's awards and honors include the NSF CAREER Award (2023) and the Google R
 
 **Postdoctoral Scholar**
 
-**Zhujun Wang** — [wangzj@umd.edu](mailto:wangzj@umd.edu)<br>
+**Zhujun Wang** — [wangzj@umd.edu](mailto:zhujun.wang1@wsu.edu)<br>
 Research Topics: Interdependent Decision-Making between Government and Citizens; Game-Theoretic Model Development
 
 **Graduate Students**
