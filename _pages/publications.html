@@ -11,6 +11,29 @@ author_profile: false
 
 {% include base_path %}
 
+<div class="publication-tools">
+  <label for="publication-search" class="screen-reader-text">
+    Search publications
+  </label>
+
+  <div class="publication-search-box">
+    <i class="fas fa-search" aria-hidden="true"></i>
+
+    <input
+      type="search"
+      id="publication-search"
+      placeholder="Search by title, journal, year, or keyword..."
+      autocomplete="off"
+    >
+
+    <button type="button" id="publication-search-clear" hidden>
+      Clear
+    </button>
+  </div>
+
+  <p id="publication-search-status" aria-live="polite"></p>
+</div>
+
 <!-- Publications grouped by category and year -->
 {% if site.publication_category %}
 
