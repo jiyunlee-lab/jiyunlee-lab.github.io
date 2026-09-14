@@ -2,6 +2,10 @@
 title: "A Decision Model for Intergenerational Life-Cycle Risk Assessment of Civil Infrastructure Exposed to Hurricanes under Climate Change"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - structures
+  - decisions
 permalink: /publication/2017-03-01-intergenerational-hurricane-risk
 excerpt: 'This study develops an intergenerational life-cycle risk assessment framework for hurricane-exposed civil infrastructure that accounts for climate-driven nonstationary hazards and the values of future generations through intergenerational discounting.'
 date: 2017-03-01
