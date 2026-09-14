@@ -87,3 +87,65 @@ author_profile: false
   {% endfor %}
 
 {% endif %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("publication-search");
+  const clearButton = document.getElementById("publication-search-clear");
+  const statusText = document.getElementById("publication-search-status");
+
+  const publicationCards = Array.from(
+    document.querySelectorAll(".publication-year-items .list__item")
+  );
+
+  const yearGroups = Array.from(
+    document.querySelectorAll(".publication-year-group")
+  );
+
+  function updatePublications() {
+    const query = searchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+
+    publicationCards.forEach(function (card) {
+      const cardText = card.textContent.toLowerCase();
+      const matches = query === "" || cardText.includes(query);
+
+      card.hidden = !matches;
+
+      if (matches) {
+        visibleCount += 1;
+      }
+    });
+
+    yearGroups.forEach(function (group) {
+      const visibleCards = group.querySelectorAll(
+        ".publication-year-items .list__item:not([hidden])"
+      );
+
+      group.hidden = visibleCards.length === 0;
+    });
+
+    clearButton.hidden = query === "";
+
+    if (query === "") {
+      statusText.textContent =
+        publicationCards.length + " publications";
+    } else if (visibleCount === 1) {
+      statusText.textContent = "1 publication found";
+    } else {
+      statusText.textContent =
+        visibleCount + " publications found";
+    }
+  }
+
+  searchInput.addEventListener("input", updatePublications);
+
+  clearButton.addEventListener("click", function () {
+    searchInput.value = "";
+    searchInput.focus();
+    updatePublications();
+  });
+
+  updatePublications();
+});
+</script>
