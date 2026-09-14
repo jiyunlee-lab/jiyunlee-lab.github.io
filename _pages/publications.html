@@ -13,52 +13,54 @@ author_profile: false
 
 <!-- Publications grouped by category and year -->
 {% if site.publication_category %}
+
   {% for category in site.publication_category %}
-    {% assign category_posts = site.publications
-      | where: "category", category[0]
-      | sort: "date"
-      | reverse %}
+    {% assign category_posts = site.publications | where: "category", category[0] | sort: "date" | reverse %}
 
     {% if category_posts.size > 0 %}
       <h2>{{ category[1].title }}</h2>
       <hr />
 
-      {% assign posts_by_year = category_posts
-        | group_by_exp: "post", "post.date | date: '%Y'" %}
+      {% assign posts_by_year = category_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
       {% for year in posts_by_year %}
         <section class="publication-year-group">
-          <h3 class="publication-year">{{ year.name }}</h3>
+
+          <h3 class="publication-year">
+            {{ year.name }}
+          </h3>
 
           <div class="publication-year-items">
             {% for post in year.items %}
-              {% include archive-single.html %}
+              {% include publication-card.html %}
             {% endfor %}
           </div>
+
         </section>
       {% endfor %}
+
     {% endif %}
   {% endfor %}
 
 {% else %}
-  {% assign sorted_publications = site.publications
-    | sort: "date"
-    | reverse %}
 
-  {% assign posts_by_year = sorted_publications
-    | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% assign sorted_publications = site.publications | sort: "date" | reverse %}
+  {% assign posts_by_year = sorted_publications | group_by_exp: "post", "post.date | date: '%Y'" %}
 
   {% for year in posts_by_year %}
     <section class="publication-year-group">
-      <h2 class="publication-year">{{ year.name }}</h2>
+
+      <h2 class="publication-year">
+        {{ year.name }}
+      </h2>
 
       <div class="publication-year-items">
         {% for post in year.items %}
-          {% include archive-single.html %}
+          {% include publication-card.html %}
         {% endfor %}
       </div>
+
     </section>
   {% endfor %}
+
 {% endif %}
-
-
