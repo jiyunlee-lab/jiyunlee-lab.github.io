@@ -2,6 +2,8 @@
 title: "A New Generation of DCR by Introducing Reliability-Survivability Safety Measure"
 collection: publications
 category: manuscripts
+research_themes:
+  - structures
 permalink: /publication/2024-04-01-dcr-reliability-survivability
 excerpt: 'This study develops a vector-based demand-capacity ratio framework that integrates structural reliability and survivability to provide a probabilistic measure of structural safety.'
 date: 2024-04-01
