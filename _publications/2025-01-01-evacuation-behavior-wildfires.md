@@ -2,6 +2,9 @@
 title: "Understanding Evacuation Behavior During Wildfires: Exploring Key Factors Affecting Evacuee Behaviors and Developing Predictive Models for Decision-Making"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - decisions
 permalink: /publication/2025-01-01-evacuation-behavior-wildfires
 excerpt: 'This study develops data-driven predictive models of individual wildfire evacuation decisions using survey data and machine-learning algorithms.'
 date: 2025-01-01
