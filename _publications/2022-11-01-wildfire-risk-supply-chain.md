@@ -2,6 +2,9 @@
 title: "Probabilistic Wildfire Risk Assessment Methodology and Evaluation of a Supply Chain Network"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - infrastructure
 permalink: /publication/2022-11-01-wildfire-risk-supply-chain
 excerpt: 'This study develops a probabilistic framework to quantify wildfire risk to supply-chain networks by modeling fire ignition and growth, component damage, and resulting network-level performance losses.'
 date: 2022-11-01
