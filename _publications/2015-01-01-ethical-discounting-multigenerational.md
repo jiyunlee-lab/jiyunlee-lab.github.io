@@ -2,6 +2,9 @@
 title: "Ethical Discounting for Civil Infrastructure Decisions Extending over Multiple Generations"
 collection: publications
 category: manuscripts
+research_themes:
+  - structures
+  - decisions
 permalink: /publication/2015-01-01-ethical-discounting-multigenerational
 excerpt: 'This study develops an intergenerational discounting method for civil infrastructure with multigenerational service periods that promotes equitable risk sharing between current and future generations.'
 date: 2015-01-01
