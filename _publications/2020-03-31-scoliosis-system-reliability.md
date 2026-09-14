@@ -2,6 +2,8 @@
 title: "System Reliability Analysis of the Scoliosis Disorder"
 collection: publications
 category: manuscripts
+research_themes:
+  - structures
 permalink: /publication/2020-03-31-scoliosis-system-reliability
 excerpt: 'This study develops a probabilistic system-reliability framework to compare normal and scoliotic spines and proposes a target reliability index for evaluating scoliosis treatments.'
 date: 2020-03-31
