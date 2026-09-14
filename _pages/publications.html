@@ -11,26 +11,54 @@ author_profile: false
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<!-- Publications grouped by category and year -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+  {% for category in site.publication_category %}
+    {% assign category_posts = site.publications
+      | where: "category", category[0]
+      | sort: "date"
+      | reverse %}
+
+    {% if category_posts.size > 0 %}
+      <h2>{{ category[1].title }}</h2>
+      <hr />
+
+      {% assign posts_by_year = category_posts
+        | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+      {% for year in posts_by_year %}
+        <section class="publication-year-group">
+          <h3 class="publication-year">{{ year.name }}</h3>
+
+          <div class="publication-year-items">
+            {% for post in year.items %}
+              {% include archive-single.html %}
+            {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    {% endif %}
   {% endfor %}
+
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+  {% assign sorted_publications = site.publications
+    | sort: "date"
+    | reverse %}
+
+  {% assign posts_by_year = sorted_publications
+    | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+  {% for year in posts_by_year %}
+    <section class="publication-year-group">
+      <h2 class="publication-year">{{ year.name }}</h2>
+
+      <div class="publication-year-items">
+        {% for post in year.items %}
+          {% include archive-single.html %}
+        {% endfor %}
+      </div>
+    </section>
   {% endfor %}
 {% endif %}
-
 
 
