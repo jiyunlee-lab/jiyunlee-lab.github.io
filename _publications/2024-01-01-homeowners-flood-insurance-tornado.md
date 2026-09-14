@@ -2,6 +2,9 @@
 title: "Quantifying the Role of Homeowners and Flood Insurance in Tornado-Impacted Community Resilience: A Survey and Simulation-Based Approach"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - infrastructure
 permalink: /publication/2024-01-01-homeowners-flood-insurance-tornado
 excerpt: 'This study develops a survey-informed simulation framework to quantify how homeowners and flood insurance influence housing recovery and community resilience after tornadoes.'
 date: 2024-01-01
