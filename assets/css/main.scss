@@ -229,3 +229,29 @@
     min-height: auto;
   }
 }
+
+/* Research-card mini illustrations */
+.research-theme-card {
+  overflow: hidden;
+}
+
+.research-theme-visual {
+  aspect-ratio: 16 / 9;
+  margin: -1.65rem -1.65rem 1.35rem;
+  overflow: hidden;
+  background: #e7ebe2;
+  border-bottom: 1px solid rgba(62, 57, 51, 0.12);
+}
+
+.research-theme-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 300ms ease;
+}
+
+.research-theme-card:hover .research-theme-visual img {
+  transform: scale(1.035);
+}
