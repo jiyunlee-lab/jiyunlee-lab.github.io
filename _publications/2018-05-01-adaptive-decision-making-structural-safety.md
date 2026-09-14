@@ -2,6 +2,10 @@
 title: "Adaptive Decision-Making for Civil Infrastructure Systems and Communities Exposed to Evolving Risks"
 collection: publications
 category: manuscripts
+research_themes:
+  - structures
+  - infrastructure
+  - decisions
 permalink: /publication/2018-05-01-adaptive-decision-making-structural-safety
 excerpt: 'This study develops an adaptive decision-making framework that uses sequential Bayesian updating to continually reassess evolving risks and improve the life-cycle resilience of infrastructure systems and communities.'
 date: 2018-05-01
