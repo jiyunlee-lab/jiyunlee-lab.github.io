@@ -2,6 +2,9 @@
 title: "Understanding Homeowner Proactive Actions for Managing Wildfire Risks"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - decisions
 permalink: /publication/2022-11-01-homeowner-proactive-actions-wildfire
 excerpt: 'This study develops survey-based regression models to identify factors influencing homeowners’ wildfire mitigation and insurance decisions and evaluates how these actions affect housing recovery.'
 date: 2022-11-01
