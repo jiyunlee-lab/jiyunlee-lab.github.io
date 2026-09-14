@@ -2,6 +2,9 @@
 title: "Effect of Catastrophe Insurance on Disaster-Impacted Community: Quantitative Framework and Case Studies"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - infrastructure
 permalink: /publication/2020-01-01-catastrophe-insurance-community
 excerpt: 'This study develops a two-phase quantitative framework linking homeowners’ pre-disaster insurance decisions to post-disaster financial delays, building recovery, and community resilience.'
 date: 2020-01-01
