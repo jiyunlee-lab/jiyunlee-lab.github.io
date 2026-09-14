@@ -2,6 +2,8 @@
 title: "State-of-the-Art Reliability Analysis of Structural Drift Control Corresponding to the Critical Excitations"
 collection: publications
 category: manuscripts
+research_themes:
+  - structures
 permalink: /publication/2020-08-13-drift-control-critical-excitations
 excerpt: 'This study proposes a new reliability-based design criterion to control interstory drift under seismic loading, established through analysis of several steel frame structures.'
 date: 2022-01-01
