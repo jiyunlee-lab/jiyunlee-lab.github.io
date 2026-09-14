@@ -536,3 +536,62 @@
   font-size: 0.85rem;
   font-weight: 600;
 }
+
+/* ==========================================
+   Publications: research-theme filters
+   ========================================== */
+
+.publication-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.publication-filter {
+  padding: 0.5rem 0.85rem;
+
+  color: #66745e;
+  background: #f8f5ed;
+  border: 1px solid #aeb8a6;
+  border-radius: 999px;
+
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  transition:
+    color 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.publication-filter:hover {
+  color: #4f5c48;
+  background: #e9eee5;
+  border-color: #7b8870;
+  transform: translateY(-1px);
+}
+
+.publication-filter.is-active {
+  color: #fff;
+  background: #c65332;
+  border-color: #c65332;
+}
+
+.publication-filter.is-active:hover {
+  color: #fff;
+  background: #a94228;
+  border-color: #a94228;
+}
+
+.publication-filter:focus-visible {
+  outline: 3px solid rgba(198, 83, 50, 0.22);
+  outline-offset: 2px;
+}
+
+#publication-search-status {
+  margin-top: 0.75rem;
+}
