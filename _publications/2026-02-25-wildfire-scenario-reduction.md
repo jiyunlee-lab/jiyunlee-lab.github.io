@@ -2,6 +2,9 @@
 title: "Cluster-Based Active-Learning Scenario Reduction Framework for Probabilistic Wildfire Risk Assessment"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - infrastructure
 permalink: /publication/2026-02-25-wildfire-scenario-reduction
 excerpt: 'The paper develops a cluster-based active-learning framework that reduces thousands of wildfire scenarios to a representative subset, making probabilistic risk assessment faster while preserving accuracy.'
 date: 2026-02-25
