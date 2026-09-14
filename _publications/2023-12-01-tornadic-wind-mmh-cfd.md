@@ -2,6 +2,9 @@
 title: "Understanding Tornadic Wind Effects on Manufactured or Mobile Homes through High-Fidelity CFD Simulations"
 collection: publications
 category: manuscripts
+research_themes:
+  - hazards
+  - structures
 permalink: /publication/2023-12-01-tornadic-wind-mmh-cfd
 excerpt: 'This study uses high-fidelity computational fluid dynamics simulations to quantify tornado-induced wind loads on manufactured and mobile homes and assess the limitations of straight-line wind-based design.'
 date: 2023-12-01
