@@ -21,14 +21,14 @@ Dr. Lee's awards and honors include the NSF CAREER Award (2023) and the Google R
 
 **Postdoctoral Scholar**
 
-**Zhujun Wang** — [wangzj@umd.edu](mailto:zhujun.wang1@wsu.edu)<br>
+**Zhujun Wang** — [zhujun.wang1@wsu.edu](mailto:zhujun.wang1@wsu.edu)<br>
 Research Topics: Interdependent Decision-Making between Government and Citizens; Game-Theoretic Model Development
 
 **Graduate Students**
 
 **Abdel-Aziz Sanad** — [abdel-aziz.sanad@wsu.edu](mailto:abdel-aziz.sanad@wsu.edu)<br>
 PhD Student (Spring 2023 – Present)<br>
-Research Topics: Physics- and Data-driven Hurricane Vulnerability Assessment; Wildfire Simulation
+Research Topics: Physics- and Data-driven Hurricane Vulnerability Assessment; Wildfire Simulation Modeling
 
 **Md. Mehedi Hasan** — [mdmehedi.hasan@wsu.edu](mailto:mdmehedi.hasan@wsu.edu)<br>
 MS Student (Fall 2025 – Present)<br>
