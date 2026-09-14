@@ -1,0 +1,48 @@
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/ScholarlyArticle">
+
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <p class="publication-meta">
+      Published in <em>{{ post.venue }}</em>,
+      {{ post.date | date: "%Y" }}
+    </p>
+
+    <div class="publication-actions">
+      {% if post.paperurl %}
+        <a class="publication-button"
+           href="{{ post.paperurl }}"
+           target="_blank"
+           rel="noopener noreferrer">
+          DOI / Publisher
+          <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+    </div>
+
+    <details class="publication-details">
+      <summary>View summary and citation</summary>
+
+      <div class="publication-details-content">
+        {% if post.excerpt %}
+          <div class="publication-summary">
+            <strong>Summary</strong>
+            <p>{{ post.excerpt }}</p>
+          </div>
+        {% endif %}
+
+        {% if post.citation %}
+          <div class="publication-citation">
+            <strong>Recommended citation</strong>
+            <p>{{ post.citation }}</p>
+          </div>
+        {% endif %}
+      </div>
+    </details>
+
+  </article>
+</div>
