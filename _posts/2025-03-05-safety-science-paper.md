@@ -2,6 +2,7 @@
 title: 'Safety Science Paper'
 date: 2025-03-05
 permalink: /posts/2025/03/safety-science-paper/
+news_type: publication
 tags:
   - news
   - publications
