@@ -2,6 +2,7 @@
 title: 'Natural Hazards Paper'
 date: 2024-03-13
 permalink: /posts/2024/03/natural-hazards-paper/
+news_type: publication
 tags:
   - news
   - publications
