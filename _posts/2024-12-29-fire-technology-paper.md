@@ -2,6 +2,7 @@
 title: 'Fire Technology Paper'
 date: 2024-12-29
 permalink: /posts/2024/12/fire-technology-paper/
+news_type: publication
 tags:
   - news
   - publications
