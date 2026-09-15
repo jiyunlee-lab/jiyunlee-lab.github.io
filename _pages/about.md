@@ -70,17 +70,81 @@ SHAPE Lab develops AI-enabled simulation and decision models to help individuals
 
 ## Recent News
 
-{% for post in site.posts limit: 3 %}
-<div class="home-news-item">
-  <strong>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </strong>
-  <span>({{ post.date | date: "%B %Y" }})</span>
+{% for post in site.posts %}
 
-  {% assign summary = post.excerpt | default: post.content %}
-  <div class="home-news-summary">
-    {{ summary | strip_html | truncatewords: 35 }}
-    <a href="{{ post.url | relative_url }}">Read more →</a>
+  <div class="home-news-item"
+       data-home-news-item>
+
+    <strong>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </strong>
+
+    <span>
+      ({{ post.date | date: "%B %Y" }})
+    </span>
+
+    {% assign summary = post.excerpt | default: post.content %}
+
+    <div class="home-news-summary">
+      {{ summary | strip_html | truncatewords: 35 }}
+
+      <a href="{{ post.url | relative_url }}">
+        Read more →
+      </a>
+    </div>
+
   </div>
-</div>
+
 {% endfor %}
+
+<div class="home-news-actions">
+
+  <button type="button"
+          id="home-news-more">
+    Show older news
+  </button>
+
+  <a class="home-news-all"
+     href="{{ '/year-archive/' | relative_url }}">
+    View all news
+    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+  </a>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const newsItems = Array.from(
+    document.querySelectorAll("[data-home-news-item]")
+  );
+
+  const showMoreButton =
+    document.getElementById("home-news-more");
+
+  const initialNumber = 3;
+  const batchSize = 3;
+  let visibleNumber = initialNumber;
+
+  function updateNewsVisibility() {
+    newsItems.forEach(function (item, index) {
+      item.hidden = index >= visibleNumber;
+    });
+
+    if (visibleNumber >= newsItems.length) {
+      showMoreButton.hidden = true;
+    } else {
+      showMoreButton.hidden = false;
+    }
+  }
+
+  showMoreButton.addEventListener("click", function () {
+    visibleNumber += batchSize;
+    updateNewsVisibility();
+  });
+
+  updateNewsVisibility();
+});
+</script>
+
