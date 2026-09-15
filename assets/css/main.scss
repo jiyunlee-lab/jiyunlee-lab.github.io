@@ -601,3 +601,83 @@
   font-size: 2rem !important;
   line-height: 1.2;
 }
+
+/* ==========================================
+   Homepage call-to-action buttons
+   ========================================== */
+
+.home-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.home-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.7rem 1.1rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Terracotta primary button */
+
+.home-cta-button--primary {
+  color: #fff !important;
+  background: #c65332;
+  border-color: #c65332;
+}
+
+.home-cta-button--primary:hover {
+  color: #fff !important;
+  background: #a94228;
+  border-color: #a94228;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(198, 83, 50, 0.2);
+}
+
+/* Sage secondary button */
+
+.home-cta-button--secondary {
+  color: #66745e !important;
+  background: transparent;
+  border-color: #8e9a85;
+}
+
+.home-cta-button--secondary:hover {
+  color: #4f5c48 !important;
+  background: #e9eee5;
+  border-color: #7b8870;
+  transform: translateY(-2px);
+}
+
+/* Keyboard accessibility */
+
+.home-cta-button:focus-visible {
+  outline: 3px solid rgba(198, 83, 50, 0.22);
+  outline-offset: 3px;
+}
+
+@media (max-width: 30em) {
+  .home-cta {
+    flex-direction: column;
+  }
+
+  .home-cta-button {
+    width: 100%;
+  }
+}
