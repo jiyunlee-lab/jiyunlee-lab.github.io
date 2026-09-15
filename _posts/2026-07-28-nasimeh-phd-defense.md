@@ -2,6 +2,7 @@
 title: 'Congratulations to Dr. Nasimeh Rashidi!'
 date: 2026-07-28
 permalink: /posts/2026/07/nasimeh-phd-defense/
+news_type: people
 tags:
   - news
   - milestones
