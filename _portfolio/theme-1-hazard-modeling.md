@@ -7,6 +7,7 @@ icon: "fas fa-chart-line"
 accent: "terracotta"
 card_image: "/images/research/hazard-modeling.png"
 home_image: "/images/home/hazard-spot.png"
+home_title: "Natural Hazard Modeling"
 ---
 
 We develop stochastic models and simulations to characterize natural hazards — including wildfires, hurricanes, tornadoes, and earthquakes — capturing their inherent uncertainty and variability. Grounded in probability and statistics, this work increasingly incorporates machine learning and deep learning-based methods to produce more realistic hazard characterizations that support downstream risk and vulnerability assessments.
