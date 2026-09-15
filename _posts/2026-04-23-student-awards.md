@@ -2,6 +2,7 @@
 title: 'Congratulations to Our Award-Winning Students!'
 date: 2026-04-23
 permalink: /posts/2026/04/student-awards/
+news_type: award
 tags:
   - news
   - awards
