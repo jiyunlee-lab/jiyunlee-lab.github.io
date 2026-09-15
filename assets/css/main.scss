@@ -1006,34 +1006,34 @@
    ========================================================= */
 
 /* SHAPE Lab full-name line */
-body.home-page .page__content > p:first-of-type {
+#main:has(.home-news-item) .page__content > p:first-of-type {
   font-size: 1.15rem;
   line-height: 1.55;
 }
 
 /* Italic tagline and main introduction */
-body.home-page .page__content > p:not(:first-of-type) {
+#main:has(.home-news-item) .page__content > p:not(:first-of-type) {
   font-size: 1.08rem;
   line-height: 1.7;
 }
 
 /* Main homepage section headings */
-body.home-page .page__content > h2 {
+#main:has(.home-news-item) .page__content > h2 {
   font-size: 1.65rem;
   line-height: 1.25;
 }
 
 /* Slightly smaller adjustments on phones */
 @media (max-width: 48em) {
-  body.home-page .page__content > p:first-of-type {
+  #main:has(.home-news-item) .page__content > p:first-of-type {
     font-size: 1.08rem;
   }
 
-  body.home-page .page__content > p:not(:first-of-type) {
+  #main:has(.home-news-item) .page__content > p:not(:first-of-type) {
     font-size: 1.03rem;
   }
 
-  body.home-page .page__content > h2 {
+  #main:has(.home-news-item) .page__content > h2 {
     font-size: 1.5rem;
   }
 }
@@ -1043,13 +1043,13 @@ body.home-page .page__content > h2 {
    ========================================================= */
 
 @media (max-width: 48em) {
-  body.home-page .author__avatar {
+  #main:has(.home-news-item) .author__avatar {
     width: 78px !important;
     min-width: 78px !important;
     padding-right: 0.85rem !important;
   }
 
-  body.home-page .author__avatar img {
+  #main:has(.home-news-item) .author__avatar img {
     width: 78px !important;
     height: 78px !important;
     max-width: none !important;
@@ -1060,22 +1060,22 @@ body.home-page .page__content > h2 {
 }
 
 /* Homepage opening lines */
-body.home-page .page__content > p:first-of-type {
+#main:has(.home-news-item) .page__content > p:first-of-type {
   font-size: 1.22rem;
   line-height: 1.55;
 }
 
-body.home-page .page__content > p:nth-of-type(2) {
+#main:has(.home-news-item) .page__content > p:nth-of-type(2) {
   font-size: 1.15rem;
   line-height: 1.6;
 }
 
 @media (max-width: 48em) {
-  body.home-page .page__content > p:first-of-type {
+  #main:has(.home-news-item) .page__content > p:first-of-type {
     font-size: 1.14rem;
   }
 
-  body.home-page .page__content > p:nth-of-type(2) {
+  #main:has(.home-news-item) .page__content > p:nth-of-type(2) {
     font-size: 1.08rem;
   }
 }
