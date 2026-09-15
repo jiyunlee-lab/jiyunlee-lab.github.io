@@ -88,12 +88,87 @@ redirect_from:
   </p>
 </div>
 
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign posts_by_year = site.posts
+  | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+<div class="news-archive">
+  {% for year in posts_by_year %}
+    <section class="news-year-group" data-news-year-group>
+      <h2 class="news-year-title">{{ year.name }}</h2>
+
+      <div class="news-year-items">
+        {% for post in year.items %}
+          {% assign news_type = post.news_type | default: "news" %}
+          {% assign news_label = "News" %}
+          {% assign post_year = post.date | date: "%Y" %}
+          {% assign summary = post.excerpt | default: post.content %}
+
+          {% case news_type %}
+            {% when "publication" %}
+              {% assign news_label = "Publication" %}
+            {% when "project" %}
+              {% assign news_label = "Project" %}
+            {% when "award" %}
+              {% assign news_label = "Award" %}
+            {% when "people" %}
+              {% assign news_label = "People" %}
+            {% when "media" %}
+              {% assign news_label = "Media" %}
+          {% endcase %}
+
+          {% capture news_search_text %}
+            {{ post.title }}
+            {{ post_year }}
+            {{ post.tags | join: " " }}
+            {{ summary | strip_html }}
+          {% endcapture %}
+
+          <article
+            class="news-card news-card--{{ news_type }}"
+            data-news-item
+            data-news-type="{{ news_type }}"
+            data-news-search="{{ news_search_text | downcase | escape }}"
+          >
+            <div class="news-card-meta">
+              <span class="news-card-type">
+                {{ news_label }}
+              </span>
+
+              <time
+                class="news-card-date"
+                datetime="{{ post.date | date_to_xmlschema }}"
+              >
+                {{ post.date | date: "%B %Y" }}
+              </time>
+            </div>
+
+            <h3 class="news-card-title">
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            <p class="news-card-summary">
+              {{ summary | strip_html | truncatewords: 38 }}
+            </p>
+
+            <a
+              class="news-card-link"
+              href="{{ post.url | relative_url }}"
+            >
+              Read more
+              <i
+                class="fas fa-arrow-right"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</div>
+
+<p class="news-no-results" hidden>
+  No news items match your search.
+</p>
