@@ -2,6 +2,7 @@
 title: 'Expert Systems with Applications Paper'
 date: 2026-05-17
 permalink: /posts/2026/01/eswa-paper/
+news_type: publication
 tags:
   - news
   - publications
