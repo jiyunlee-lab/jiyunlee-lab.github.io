@@ -1000,3 +1000,40 @@
   font-weight: 700;
   white-space: nowrap;
 }
+
+/* =========================================================
+   Homepage typography
+   ========================================================= */
+
+/* SHAPE Lab full-name line */
+body.home-page .page__content > p:first-of-type {
+  font-size: 1.15rem;
+  line-height: 1.55;
+}
+
+/* Italic tagline and main introduction */
+body.home-page .page__content > p:not(:first-of-type) {
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+/* Main homepage section headings */
+body.home-page .page__content > h2 {
+  font-size: 1.65rem;
+  line-height: 1.25;
+}
+
+/* Slightly smaller adjustments on phones */
+@media (max-width: 48em) {
+  body.home-page .page__content > p:first-of-type {
+    font-size: 1.08rem;
+  }
+
+  body.home-page .page__content > p:not(:first-of-type) {
+    font-size: 1.03rem;
+  }
+
+  body.home-page .page__content > h2 {
+    font-size: 1.5rem;
+  }
+}
