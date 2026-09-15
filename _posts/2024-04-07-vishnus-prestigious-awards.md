@@ -2,6 +2,7 @@
 title: 'Vishnu''s Prestigious Awards'
 date: 2024-04-07
 permalink: /posts/2024/04/vishnus-prestigious-awards/
+news_type: award
 tags:
   - news
   - awards
