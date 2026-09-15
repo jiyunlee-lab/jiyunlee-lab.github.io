@@ -172,3 +172,105 @@ redirect_from:
 <p class="news-no-results" hidden>
   No news items match your search.
 </p>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("news-search");
+  const filterButtons = Array.from(
+    document.querySelectorAll("[data-news-filter]")
+  );
+  const newsItems = Array.from(
+    document.querySelectorAll("[data-news-item]")
+  );
+  const yearGroups = Array.from(
+    document.querySelectorAll("[data-news-year-group]")
+  );
+  const visibleCount = document.getElementById("news-visible-count");
+  const noResults = document.querySelector(".news-no-results");
+
+  if (!searchInput || newsItems.length === 0) {
+    return;
+  }
+
+  let activeFilter = "all";
+
+  function updateNewsResults() {
+    const searchQuery = searchInput.value
+      .trim()
+      .toLowerCase();
+
+    let numberVisible = 0;
+
+    newsItems.forEach(function (item) {
+      const newsType = item.dataset.newsType || "news";
+      const searchText = item.dataset.newsSearch || "";
+
+      const matchesFilter =
+        activeFilter === "all" ||
+        newsType === activeFilter;
+
+      const matchesSearch =
+        searchQuery === "" ||
+        searchText.includes(searchQuery);
+
+      const shouldShow =
+        matchesFilter && matchesSearch;
+
+      item.hidden = !shouldShow;
+
+      if (shouldShow) {
+        numberVisible += 1;
+      }
+    });
+
+    yearGroups.forEach(function (group) {
+      const groupItems = Array.from(
+        group.querySelectorAll("[data-news-item]")
+      );
+
+      const hasVisibleItems = groupItems.some(function (item) {
+        return !item.hidden;
+      });
+
+      group.hidden = !hasVisibleItems;
+    });
+
+    if (visibleCount) {
+      visibleCount.textContent = numberVisible;
+    }
+
+    if (noResults) {
+      noResults.hidden = numberVisible !== 0;
+    }
+  }
+
+  filterButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      activeFilter = button.dataset.newsFilter || "all";
+
+      filterButtons.forEach(function (otherButton) {
+        const isActive = otherButton === button;
+
+        otherButton.classList.toggle(
+          "is-active",
+          isActive
+        );
+
+        otherButton.setAttribute(
+          "aria-pressed",
+          isActive ? "true" : "false"
+        );
+      });
+
+      updateNewsResults();
+    });
+  });
+
+  searchInput.addEventListener(
+    "input",
+    updateNewsResults
+  );
+
+  updateNewsResults();
+});
+</script>
