@@ -31,6 +31,43 @@ SHAPE Lab develops AI-enabled simulation and decision models to help individuals
   </a>
 </div>
 
+<section class="home-research-tiles"
+         aria-labelledby="home-research-title">
+
+  <div class="home-research-heading">
+    <h2 id="home-research-title">Research at a Glance</h2>
+
+    <a href="{{ '/research/' | relative_url }}">
+      View all research
+      <i class="fas fa-arrow-right" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  {% assign home_themes = site.portfolio | sort: "order" %}
+
+  <div class="home-research-grid">
+    {% for theme in home_themes limit: 4 %}
+
+      <a class="home-research-tile home-research-tile--{{ theme.accent | default: 'sage' }}"
+         href="{{ theme.url | relative_url }}">
+
+        <img src="{{ theme.card_image | relative_url }}"
+             alt="{{ theme.title }} illustration"
+             loading="lazy">
+
+        <div class="home-research-tile-label">
+          <h3>{{ theme.title }}</h3>
+
+          <i class="fas fa-arrow-right" aria-hidden="true"></i>
+        </div>
+
+      </a>
+
+    {% endfor %}
+  </div>
+
+</section>
+
 ## Recent News
 
 {% for post in site.posts limit: 3 %}
