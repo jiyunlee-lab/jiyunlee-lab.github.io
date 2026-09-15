@@ -21,8 +21,8 @@ SHAPE Lab develops AI-enabled simulation and decision models to help individuals
 
 <div class="home-cta">
   <a class="home-cta-button home-cta-button--primary"
-     href="{{ '/research/' | relative_url }}">
-    Explore Our Research
+     href="{{ '/publications/' | relative_url }}">
+    View Publications
   </a>
 
   <a class="home-cta-button home-cta-button--secondary"
