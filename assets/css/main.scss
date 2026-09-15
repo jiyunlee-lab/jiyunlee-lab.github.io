@@ -1039,26 +1039,45 @@
 }
 
 /* =========================================================
-   Homepage mobile profile image
+   Homepage mobile profile layout
    ========================================================= */
 
 @media (max-width: 48em) {
+  #main:has(.home-news-item) .sidebar div:has(> .author__avatar) {
+    display: grid !important;
+    grid-template-columns: 88px minmax(0, 1fr) auto;
+    column-gap: 0.75rem;
+    align-items: start;
+  }
+
   #main:has(.home-news-item) .author__avatar {
-    display: table-cell !important;
-    width: 70px !important;
-    min-width: 70px !important;
-    padding-right: 0.75rem !important;
-    vertical-align: top;
+    display: block !important;
+    width: 88px !important;
+    min-width: 88px !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
   #main:has(.home-news-item) .author__avatar img {
     display: block !important;
-    width: 70px !important;
-    min-width: 70px !important;
-    height: 70px !important;
-    max-width: 70px !important;
+    width: 88px !important;
+    min-width: 88px !important;
+    height: auto !important;
+    max-width: none !important;
     border-radius: 50% !important;
-    object-fit: cover !important;
-    object-position: center 20% !important;
+    object-fit: contain !important;
+  }
+
+  #main:has(.home-news-item) .author__content {
+    display: block !important;
+    min-width: 0;
+    padding: 0 !important;
+  }
+
+  #main:has(.home-news-item) .author__urls-wrapper {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
+
