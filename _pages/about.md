@@ -51,7 +51,7 @@ SHAPE Lab develops AI-enabled simulation and decision models to help individuals
       <a class="home-research-tile home-research-tile--{{ theme.accent | default: 'sage' }}"
          href="{{ theme.url | relative_url }}">
 
-        <img src="{{ theme.card_image | relative_url }}"
+        <img src="{{ theme.home_image | relative_url }}"
              alt="{{ theme.title }} illustration"
              loading="lazy">
 
