@@ -1081,3 +1081,125 @@
   }
 }
 
+/* =========================================================
+   News page search and filters
+   ========================================================= */
+
+.news-page-intro {
+  max-width: 52rem;
+  margin: 0 0 1.5rem;
+  color: #575149;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.news-tools {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.news-search-wrap {
+  position: relative;
+  max-width: 48rem;
+  margin-bottom: 1rem;
+}
+
+.news-search-wrap .fa-search {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  color: #7b8870;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.news-search {
+  display: block;
+  width: 100%;
+  padding: 0.9rem 1rem 0.9rem 2.8rem;
+  color: #4e4942;
+  background: #fbf8f1;
+  border: 1px solid #ded4c4;
+  border-radius: 9px;
+  box-shadow: 0 3px 10px rgba(70, 60, 45, 0.05);
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.news-search::placeholder {
+  color: #9a9287;
+}
+
+.news-search:focus {
+  border-color: #7b8870;
+  box-shadow: 0 0 0 3px rgba(123, 136, 112, 0.16);
+  outline: none;
+}
+
+.news-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.news-filter-button {
+  padding: 0.55rem 0.9rem;
+  color: #6c7863;
+  background: transparent;
+  border: 1px solid #aeb9a6;
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.news-filter-button:hover {
+  color: #c65332;
+  border-color: #c65332;
+  transform: translateY(-1px);
+}
+
+.news-filter-button.is-active {
+  color: #ffffff;
+  background: #c65332;
+  border-color: #c65332;
+}
+
+.news-filter-button:focus-visible {
+  box-shadow: 0 0 0 3px rgba(198, 83, 50, 0.2);
+  outline: none;
+}
+
+.news-results-status {
+  margin: 0.85rem 0 0;
+  color: #7b8870;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+@media (max-width: 48em) {
+  .news-page-intro {
+    font-size: 1rem;
+  }
+
+  .news-tools {
+    margin-bottom: 2rem;
+  }
+
+  .news-search-wrap {
+    max-width: none;
+  }
+
+  .news-filter-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.74rem;
+  }
+}
+
