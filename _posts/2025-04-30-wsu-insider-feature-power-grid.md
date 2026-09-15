@@ -2,6 +2,7 @@
 title: 'Our New Project Being Featured on WSU Insider'
 date: 2025-04-30
 permalink: /posts/2025/04/wsu-insider-feature-power-grid/
+news_type: media
 tags:
   - news
   - media
