@@ -2,6 +2,7 @@
 title: 'ASCE-ASME Journal Paper'
 date: 2026-02-25
 permalink: /posts/2026/02/asce-asme-paper/
+news_type: publication
 tags:
   - news
   - publications
