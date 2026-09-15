@@ -7,6 +7,7 @@ icon: "fas fa-diagram-project"
 accent: "sage"
 card_image: "/images/research/infrastructure-risk.png"
 home_image: "/images/home/infrastructure-spot.png"
+home_title: "Infrastructure & Community Risk"
 ---
 
 We extend risk assessment beyond individual structures to networked infrastructure systems — including power grids, water distribution systems, and transportation networks — and to the communities they serve. This includes evaluating system-level performance and resilience, as well as the role of insurance and policy mechanisms in shaping community-level risk and recovery outcomes.
