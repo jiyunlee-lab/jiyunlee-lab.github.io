@@ -7,6 +7,7 @@ icon: "fas fa-bridge"
 accent: "sage"
 card_image: "/images/research/structural-reliability.png"
 home_image: "/images/home/structural-spot.png"
+home_title: "Structural Risk Analysis"
 ---
 
 We assess the performance and reliability of individual structures and systems — including buildings, bridges, and transmission towers — under hazard loads such as wind, seismic, and climate-driven events. This work is grounded in engineering models and simulation, applying structural reliability theory and fragility modeling — increasingly supported by surrogate and machine learning-based methods — to evaluate how structures perform and degrade over their service life.
