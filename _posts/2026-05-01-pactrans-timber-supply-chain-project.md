@@ -2,6 +2,7 @@
 title: 'New PacTrans Project on Post-Wildfire Timber Supply Chain Resilience'
 date: 2026-05-01
 permalink: /posts/2026/05/pactrans-timber-supply-chain-project/
+news_type: project
 tags:
   - news
   - grants
