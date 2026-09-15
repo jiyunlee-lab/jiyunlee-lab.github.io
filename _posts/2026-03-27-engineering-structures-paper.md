@@ -2,6 +2,7 @@
 title: 'Engineering Structures Paper'
 date: 2026-03-27
 permalink: /posts/2026/03/engineering-structures-paper/
+news_type: publication
 tags:
   - news
   - publications
