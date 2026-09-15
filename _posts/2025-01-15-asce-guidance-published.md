@@ -2,6 +2,7 @@
 title: 'Structural Reliability Guidance in ASCE 7-22 Published'
 date: 2025-01-15
 permalink: /posts/2025/01/asce-guidance-published/
+news_type: publication
 tags:
   - news
   - publications
