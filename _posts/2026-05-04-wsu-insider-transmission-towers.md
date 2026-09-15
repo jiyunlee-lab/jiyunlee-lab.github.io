@@ -2,6 +2,7 @@
 title: 'Our Transmission Tower Research Featured on WSU Insider'
 date: 2026-05-04
 permalink: /posts/2026/05/wsu-insider-transmission-towers/
+news_type: media
 tags:
   - news
   - media
