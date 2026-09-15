@@ -71,32 +71,46 @@ SHAPE Lab develops AI-enabled simulation and decision models to help individuals
 ## Recent News
 
 {% for post in site.posts %}
-
   <div class="home-news-item home-news-item--{{ post.news_type | default: 'news' }}"
-     data-home-news-item>
+       data-home-news-item>
 
-    <strong>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </strong>
+    {% assign news_type = post.news_type | default: "news" %}
+    {% assign news_label = "News" %}
 
-    <span>
-      ({{ post.date | date: "%B %Y" }})
+    {% case news_type %}
+      {% when "publication" %}
+        {% assign news_label = "Publication" %}
+      {% when "project" %}
+        {% assign news_label = "Project" %}
+      {% when "award" %}
+        {% assign news_label = "Award" %}
+      {% when "people" %}
+        {% assign news_label = "People" %}
+      {% when "media" %}
+        {% assign news_label = "Media" %}
+    {% endcase %}
+
+    <span class="home-news-type home-news-type--{{ news_type }}">
+      {{ news_label }}
     </span>
+
+    <div class="home-news-heading">
+      <strong>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </strong>
+
+      <span class="home-news-date">
+        ({{ post.date | date: "%B %Y" }})
+      </span>
+    </div>
 
     {% assign summary = post.excerpt | default: post.content %}
 
     <div class="home-news-summary">
       {{ summary | strip_html | truncatewords: 35 }}
-
-      <a href="{{ post.url | relative_url }}">
-        Read more →
-      </a>
+      <a href="{{ post.url | relative_url }}">Read more →</a>
     </div>
-
   </div>
-
 {% endfor %}
 
 <div class="home-news-actions">
