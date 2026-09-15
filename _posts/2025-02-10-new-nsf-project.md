@@ -2,6 +2,7 @@
 title: 'New NSF Project'
 date: 2025-02-10
 permalink: /posts/2025/02/new-nsf-project/
+news_type: project
 tags:
   - news
   - grants
