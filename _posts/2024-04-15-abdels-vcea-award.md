@@ -2,6 +2,7 @@
 title: 'Abdel''s VCEA Student Excellence Award'
 date: 2024-04-15
 permalink: /posts/2024/04/abdels-vcea-award/
+news_type: award
 tags:
   - news
   - awards
