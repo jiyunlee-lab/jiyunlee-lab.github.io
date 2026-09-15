@@ -2,6 +2,7 @@
 title: 'Our Recent Work Featured on WSU Insider'
 date: 2026-08-06
 permalink: /posts/2026/08/wsu-insider-wildfire-subsidy/
+news_type: media
 tags:
   - news
   - media
