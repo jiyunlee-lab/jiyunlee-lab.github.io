@@ -2,6 +2,7 @@
 title: 'Successful Completion of Vishnu''s PhD Defense'
 date: 2025-04-17
 permalink: /posts/2025/04/vishnus-phd-defense/
+news_type: people
 tags:
   - news
   - milestones
