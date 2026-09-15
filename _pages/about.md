@@ -19,6 +19,18 @@ header:
 
 SHAPE Lab develops AI-enabled simulation and decision models to help individuals, communities, and infrastructure systems anticipate, prepare for, and respond to natural hazards. We study how natural hazards, engineered systems, institutions, and individual and collective decision-making interact across problems including wildfire behavior, risk analysis, evacuation, mitigation, and community resilience. Our interdisciplinary team of engineers, researchers, and students combines AI, engineering, and social science to address real-world risk and resilience challenges.
 
+<div class="home-cta">
+  <a class="home-cta-button home-cta-button--primary"
+     href="{{ '/research/' | relative_url }}">
+    Explore Our Research
+  </a>
+
+  <a class="home-cta-button home-cta-button--secondary"
+     href="{{ '/people/' | relative_url }}">
+    Meet the Team
+  </a>
+</div>
+
 ## Recent News
 
 {% for post in site.posts limit: 3 %}
