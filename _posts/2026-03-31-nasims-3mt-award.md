@@ -2,6 +2,7 @@
 title: 'Nasim''s Three-Minute Thesis Award'
 date: 2026-03-31
 permalink: /posts/2026/03/nasims-3mt-award/
+news_type: award
 tags:
   - news
   - awards
