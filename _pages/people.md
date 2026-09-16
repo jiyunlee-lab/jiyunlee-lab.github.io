@@ -140,7 +140,7 @@ author_profile: false
 
     <div class="people-member-content">
       <span class="people-member-role">
-        PhD Student
+        PhD Candidate
       </span>
 
       <h3>Abdel-Aziz Sanad</h3>
@@ -161,45 +161,6 @@ author_profile: false
       <a
         class="people-member-email"
         href="mailto:abdel-aziz.sanad@wsu.edu"
-      >
-        <i class="fas fa-envelope" aria-hidden="true"></i>
-        Email
-      </a>
-    </div>
-  </article>
-
-  <article class="people-member-card">
-    <div class="people-member-photo">
-      <img
-        src="{{ '/images/people/md-mehedi-hasan.jpg' | relative_url }}"
-        alt="Md. Mehedi Hasan"
-        loading="lazy"
-      >
-    </div>
-
-    <div class="people-member-content">
-      <span class="people-member-role">
-        MS Student
-      </span>
-
-      <h3>Md. Mehedi Hasan</h3>
-
-      <p class="people-member-term">
-        Fall 2025 to Present
-      </p>
-
-      <p class="people-member-focus">
-        Wildfire-related power outage prediction using satellite imagery and data-driven modeling.
-      </p>
-
-      <div class="people-member-tags">
-        <span>Wildfire</span>
-        <span>Satellite Imagery</span>
-      </div>
-
-      <a
-        class="people-member-email"
-        href="mailto:mdmehedi.hasan@wsu.edu"
       >
         <i class="fas fa-envelope" aria-hidden="true"></i>
         Email
@@ -239,6 +200,45 @@ author_profile: false
       <a
         class="people-member-email"
         href="mailto:yihan.chen@wsu.edu"
+      >
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        Email
+      </a>
+    </div>
+  </article>
+  
+  <article class="people-member-card">
+    <div class="people-member-photo">
+      <img
+        src="{{ '/images/people/md-mehedi-hasan.jpg' | relative_url }}"
+        alt="Md. Mehedi Hasan"
+        loading="lazy"
+      >
+    </div>
+
+    <div class="people-member-content">
+      <span class="people-member-role">
+        MS Student
+      </span>
+
+      <h3>Md. Mehedi Hasan</h3>
+
+      <p class="people-member-term">
+        Fall 2025 to Present
+      </p>
+
+      <p class="people-member-focus">
+        Wildfire-related power outage prediction using satellite imagery and data-driven modeling.
+      </p>
+
+      <div class="people-member-tags">
+        <span>Wildfire</span>
+        <span>Satellite Imagery</span>
+      </div>
+
+      <a
+        class="people-member-email"
+        href="mailto:mdmehedi.hasan@wsu.edu"
       >
         <i class="fas fa-envelope" aria-hidden="true"></i>
         Email
