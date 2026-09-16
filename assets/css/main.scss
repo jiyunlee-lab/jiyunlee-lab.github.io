@@ -1593,3 +1593,22 @@
     line-height: 1.6;
   }
 }
+
+/* Highlight major PI honors */
+.people-honor-featured {
+  padding: 0.55rem 0.7rem !important;
+  color: #4e4942 !important;
+  background: #f3ded5;
+  border: 1px solid #e9c7b8;
+  border-left: 4px solid #c65332;
+  border-radius: 7px;
+}
+
+.people-honor-featured::before {
+  display: none;
+}
+
+.people-honor-featured strong {
+  color: #c65332;
+  font-weight: 800;
+}
