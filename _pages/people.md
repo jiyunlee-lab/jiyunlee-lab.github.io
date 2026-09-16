@@ -10,16 +10,68 @@ author_profile: false
 
 ## Principal Investigator
 
-### Dr. Ji Yun Lee
-**Associate Professor**, Department of Civil and Environmental Engineering, Washington State University
+<div class="people-pi-card">
+  <div class="people-pi-photo">
+    {% if site.author.avatar contains "://" %}
+      <img
+        src="{{ site.author.avatar }}"
+        alt="Ji Yun Lee"
+      >
+    {% else %}
+      <img
+        src="{{ site.author.avatar | prepend: '/images/' | relative_url }}"
+        alt="Ji Yun Lee"
+      >
+    {% endif %}
+  </div>
 
-Address: 2001 Grimes Way, PACCAR 158, Pullman, WA 99164 | Email: [jiyun.lee@wsu.edu](mailto:jiyun.lee@wsu.edu) | Phone: 509-335-3018
+  <div class="people-pi-content">
+    <h3>Ji Yun Lee, Ph.D.</h3>
 
-Dr. Ji Yun Lee is an Associate Professor in the Department of Civil and Environmental Engineering at Washington State University (WSU). Prior to joining WSU in 2017, she served as a Postdoctoral Scholar in the Department of Civil and Environmental Engineering at UCLA (2016–2017) and as Visiting Faculty in the Department of Civil, Environmental and Construction Engineering at the University of Central Florida (2015–2016). She received her Ph.D. (2015) in Civil Engineering from the Georgia Institute of Technology, her M.S. (2011) in Civil Engineering from Stanford University, and her B.S. (2009) in Architectural Engineering from Korea University.
+    <p class="people-pi-role">
+      Associate Professor<br>
+      Department of Civil and Environmental Engineering<br>
+      Washington State University
+    </p>
 
-Dr. Lee leads the SHAPE Lab, combining AI, simulation, and decision science to understand how infrastructure systems and communities respond to natural hazards — helping decision-makers anticipate risk, design smarter policies, and build more resilient systems. Her research spans stochastic modeling of natural hazards, structural reliability and risk assessment, human decision-making, and infrastructure and community resilience.
+    <p>
+      Ji Yun Lee leads the SHAPE Lab, where her team develops AI-enabled simulation and decision models to understand how people, infrastructure systems, institutions, and communities respond to natural hazards. Her research spans stochastic hazard modeling, structural reliability, human decision-making, and infrastructure and community resilience.
+    </p>
 
-Dr. Lee's awards and honors include the NSF CAREER Award (2023) and the Google Research Scholar Award (2022), along with the ASCE State of the Art of Civil Engineering Award (2026), the PacTrans Outstanding Researcher Award (2025), and the WSU CEE Outstanding Junior Faculty Research Award (2024). She is also a National Academy of Engineering (NAE) US Frontiers of Engineering (USFOE) alumna.
+    <p>
+      Before joining Washington State University in 2017, she was a Postdoctoral Scholar at UCLA and Visiting Faculty at the University of Central Florida. She earned her Ph.D. from the Georgia Institute of Technology, her M.S. from Stanford University, and her B.S. from Korea University.
+    </p>
+
+    <div class="people-pi-links">
+      <a href="mailto:jiyun.lee@wsu.edu">
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        Email
+      </a>
+
+      {% if site.author.googlescholar %}
+        <a href="{{ site.author.googlescholar }}">
+          <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+          Google Scholar
+        </a>
+      {% endif %}
+    </div>
+
+    <p class="people-pi-office">
+      <strong>Office:</strong> PACCAR 158, Washington State University
+    </p>
+
+    <h4>Selected Honors</h4>
+
+    <ul class="people-honors">
+      <li>ASCE State of the Art of Civil Engineering Award, 2026</li>
+      <li>PacTrans Outstanding Researcher Award, 2025</li>
+      <li>WSU CEE Outstanding Junior Faculty Research Award, 2024</li>
+      <li>NSF CAREER Award, 2023</li>
+      <li>Google Research Scholar Award, 2022</li>
+      <li>NAE US Frontiers of Engineering alumna</li>
+    </ul>
+  </div>
+</div>
 
 ## Current Members
 
