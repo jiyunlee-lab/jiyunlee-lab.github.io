@@ -175,8 +175,8 @@ exclude:
   - images/home/README.md
   - images/people/README.md
   - images/research/README.md
-  - markdown_generator
-  - talkmap
+  - markdown_generator/README.md
+  - talkmap/map.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
