@@ -172,6 +172,11 @@ exclude:
   - files/slides1.pdf
   - files/slides2.pdf
   - files/slides3.pdf
+  - images/home/README.md
+  - images/people/README.md
+  - images/research/README.md
+  - markdown_generator
+  - talkmap
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
