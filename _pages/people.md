@@ -250,38 +250,147 @@ author_profile: false
 
 ## Alumni
 
-**Postdoctoral and Graduate Alumni**
+<p class="people-alumni-intro">
+  Former SHAPE Lab researchers continue their work across academia, engineering, risk analysis, and infrastructure resilience.
+</p>
 
-**Nasimeh Rashidi**<br>
-Ph.D., Summer 2026<br>
-Research Topics: Dynamic Wildfire Risk Assessment through Deep Learning; Wildfire Risk Management Behaviors
+<div class="people-alumni-grid">
 
-**Vishnupriya Jonnalagadda**<br>
-Ph.D., May 2025<br>
-Currently Postdoctoral Scholar at Florida State University<br>
-Research Topics: Advances in Uncertainty Analysis for Infrastructure Risk and Resilience Assessment
+  <article class="people-alumni-card">
+    <h3>Nasimeh Rashidi</h3>
 
-**Fangjiao Ma**<br>
-Ph.D., December 2023<br>
-Currently Postdoctoral Research Fellow at the University of Nevada, Reno<br>
-Research Topics: Wildfire Risk and Resilience Assessment; Homeowner Proactive Actions
+    <p class="people-alumni-degree">
+      Ph.D., Summer 2026
+    </p>
 
-**Jie Zhao**<br>
-Ph.D., August 2022<br>
-Currently Engineer at Verisk Analytics<br>
-Research Topics: Supply Chain Resilience; Catastrophe Insurance
+    <p class="people-alumni-research">
+      Dynamic wildfire risk assessment through deep learning and wildfire risk management behaviors.
+    </p>
 
-**Seyed Hooman Ghasemi**<br>
-Postdoctoral Scholar, February 2020 to January 2021<br>
-Currently Assistant Professor at the University of Alabama at Birmingham<br>
-Research Topics: Structural Reliability; Transportation Resilience
+    <div class="people-alumni-tags">
+      <span>Wildfire Risk</span>
+      <span>Deep Learning</span>
+    </div>
+  </article>
 
-**Stanley Kouassi**<br>
-M.S., December 2019; Fulbright Scholarship<br>
-Currently Project Manager at Louis Berger International<br>
-Research Topics: Life-Cycle Assessment Under Uncertainty
+  <article class="people-alumni-card">
+    <h3>Vishnupriya Jonnalagadda</h3>
 
-**Undergraduate Alumni**
+    <p class="people-alumni-degree">
+      Ph.D., May 2025
+    </p>
 
-- Jane Gorski
-- Nathan Dickerson
+    <p class="people-alumni-position">
+      <strong>Current position:</strong>
+      Postdoctoral Scholar at Florida State University
+    </p>
+
+    <p class="people-alumni-research">
+      Uncertainty analysis for infrastructure risk and resilience assessment.
+    </p>
+
+    <div class="people-alumni-tags">
+      <span>Uncertainty</span>
+      <span>Infrastructure Risk</span>
+    </div>
+  </article>
+
+  <article class="people-alumni-card">
+    <h3>Fangjiao Ma</h3>
+
+    <p class="people-alumni-degree">
+      Ph.D., December 2023
+    </p>
+
+    <p class="people-alumni-position">
+      <strong>Current position:</strong>
+      Postdoctoral Research Fellow at the University of Nevada, Reno
+    </p>
+
+    <p class="people-alumni-research">
+      Wildfire risk and resilience assessment and homeowner proactive actions.
+    </p>
+
+    <div class="people-alumni-tags">
+      <span>Wildfire Resilience</span>
+      <span>Human Decisions</span>
+    </div>
+  </article>
+
+  <article class="people-alumni-card">
+    <h3>Jie Zhao</h3>
+
+    <p class="people-alumni-degree">
+      Ph.D., August 2022
+    </p>
+
+    <p class="people-alumni-position">
+      <strong>Current position:</strong>
+      Engineer at Verisk Analytics
+    </p>
+
+    <p class="people-alumni-research">
+      Supply chain resilience and catastrophe insurance.
+    </p>
+
+    <div class="people-alumni-tags">
+      <span>Supply Chains</span>
+      <span>Insurance</span>
+    </div>
+  </article>
+
+  <article class="people-alumni-card">
+    <h3>Seyed Hooman Ghasemi</h3>
+
+    <p class="people-alumni-degree">
+      Postdoctoral Scholar, February 2020 to January 2021
+    </p>
+
+    <p class="people-alumni-position">
+      <strong>Current position:</strong>
+      Assistant Professor at the University of Alabama at Birmingham
+    </p>
+
+    <p class="people-alumni-research">
+      Structural reliability and transportation resilience.
+    </p>
+
+    <div class="people-alumni-tags">
+      <span>Structural Reliability</span>
+      <span>Transportation</span>
+    </div>
+  </article>
+
+  <article class="people-alumni-card">
+    <h3>Stanley Kouassi</h3>
+
+    <p class="people-alumni-degree">
+      M.S., December 2019; Fulbright Scholarship
+    </p>
+
+    <p class="people-alumni-position">
+      <strong>Current position:</strong>
+      Project Manager at Louis Berger International
+    </p>
+
+    <p class="people-alumni-research">
+      Life-cycle assessment under uncertainty.
+    </p>
+
+    <div class="people-alumni-tags">
+      <span>Life-Cycle Assessment</span>
+      <span>Uncertainty</span>
+    </div>
+  </article>
+
+</div>
+
+<h3 class="people-undergraduate-title">
+  Undergraduate Alumni
+</h3>
+
+<ul class="people-undergraduate-list">
+  <li>Jane Gorski</li>
+  <li>Nathan Dickerson</li>
+</ul>
+
