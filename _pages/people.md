@@ -4,6 +4,10 @@ permalink: /people/
 author_profile: false
 ---
 
+<p class="people-intro">
+  Meet the interdisciplinary team behind SHAPE Lab. We bring together engineering, AI, simulation, and decision science to understand and reduce risks from natural hazards.
+</p>
+
 ## Principal Investigator
 
 ### Dr. Ji Yun Lee
