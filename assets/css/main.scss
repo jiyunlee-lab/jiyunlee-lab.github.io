@@ -1564,36 +1564,32 @@
    PI portrait alignment and honors text
    ========================================================= */
 
-/* Keep the portrait frame fixed */
 .people-pi-photo {
   overflow: hidden;
   border-radius: 9px;
 }
 
-/* Enlarge and move the original image to center the person */
 .people-pi-photo img {
-  width: 118%;
-  max-width: none;
+  width: 140% !important;
+  max-width: none !important;
   border-radius: 0;
-  transform: translateX(-15%);
+  transform: translateX(-28.5%) !important;
 }
 
-/* Increase Selected Honors text */
 .people-honors li {
-  font-size: 0.9rem;
+  font-size: 1rem !important;
   line-height: 1.55;
 }
 
-/* Mobile adjustments */
 @media (max-width: 48em) {
   .people-pi-photo img {
-    width: 118%;
-    max-width: none;
-    transform: translateX(-15%);
+    width: 140% !important;
+    max-width: none !important;
+    transform: translateX(-28.5%) !important;
   }
 
   .people-honors li {
-    font-size: 0.92rem;
-    line-height: 1.55;
+    font-size: 1rem !important;
+    line-height: 1.6;
   }
 }
