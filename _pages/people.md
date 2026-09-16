@@ -92,28 +92,161 @@ author_profile: false
 
 ## Current Members
 
-**Postdoctoral Scholar**
+<div class="people-member-grid">
 
-**Zhujun Wang**<br>
-[zhujun.wang1@wsu.edu](mailto:zhujun.wang1@wsu.edu)<br>
-Research Topics: Interdependent Decision-Making between Government and Citizens; Game-Theoretic Model Development
+  <article class="people-member-card">
+    <div class="people-member-photo">
+      <img
+        src="{{ '/images/people/zhujun-wang.jpg' | relative_url }}"
+        alt="Zhujun Wang"
+        loading="lazy"
+      >
+    </div>
 
-**Graduate Students**
+    <div class="people-member-content">
+      <span class="people-member-role">
+        Postdoctoral Scholar
+      </span>
 
-**Abdel-Aziz Sanad**<br>
-[abdel-aziz.sanad@wsu.edu](mailto:abdel-aziz.sanad@wsu.edu)<br>
-PhD Student, Spring 2023 to Present<br>
-Research Topics: Physics- and Data-Driven Hurricane Vulnerability Assessment; Wildfire Simulation Modeling
+      <h3>Zhujun Wang</h3>
 
-**Md. Mehedi Hasan**<br>
-[mdmehedi.hasan@wsu.edu](mailto:mdmehedi.hasan@wsu.edu)<br>
-MS Student, Fall 2025 to Present<br>
-Research Topics: Wildfire-Related Power Outage Prediction Using Satellite Imagery
+      <p class="people-member-focus">
+        Interdependent decision-making between governments and citizens, with an emphasis on game-theoretic model development.
+      </p>
 
-**Yihan Chen**<br>
-[yihan.chen@wsu.edu](mailto:yihan.chen@wsu.edu)<br>
-PhD Student, Fall 2026 to Present<br>
-Research Topics: AI-Driven Modeling of Human Decision-Making Under Natural Hazards
+      <div class="people-member-tags">
+        <span>Decision-Making</span>
+        <span>Game Theory</span>
+      </div>
+
+      <a
+        class="people-member-email"
+        href="mailto:zhujun.wang1@wsu.edu"
+      >
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        Email
+      </a>
+    </div>
+  </article>
+
+  <article class="people-member-card">
+    <div class="people-member-photo">
+      <img
+        src="{{ '/images/people/abdel-aziz-sanad.jpg' | relative_url }}"
+        alt="Abdel-Aziz Sanad"
+        loading="lazy"
+      >
+    </div>
+
+    <div class="people-member-content">
+      <span class="people-member-role">
+        PhD Student
+      </span>
+
+      <h3>Abdel-Aziz Sanad</h3>
+
+      <p class="people-member-term">
+        Spring 2023 to Present
+      </p>
+
+      <p class="people-member-focus">
+        Physics-informed and data-driven hurricane vulnerability assessment and wildfire simulation modeling.
+      </p>
+
+      <div class="people-member-tags">
+        <span>Hazard Modeling</span>
+        <span>Vulnerability</span>
+      </div>
+
+      <a
+        class="people-member-email"
+        href="mailto:abdel-aziz.sanad@wsu.edu"
+      >
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        Email
+      </a>
+    </div>
+  </article>
+
+  <article class="people-member-card">
+    <div class="people-member-photo">
+      <img
+        src="{{ '/images/people/md-mehedi-hasan.jpg' | relative_url }}"
+        alt="Md. Mehedi Hasan"
+        loading="lazy"
+      >
+    </div>
+
+    <div class="people-member-content">
+      <span class="people-member-role">
+        MS Student
+      </span>
+
+      <h3>Md. Mehedi Hasan</h3>
+
+      <p class="people-member-term">
+        Fall 2025 to Present
+      </p>
+
+      <p class="people-member-focus">
+        Wildfire-related power outage prediction using satellite imagery and data-driven modeling.
+      </p>
+
+      <div class="people-member-tags">
+        <span>Wildfire</span>
+        <span>Satellite Imagery</span>
+      </div>
+
+      <a
+        class="people-member-email"
+        href="mailto:mdmehedi.hasan@wsu.edu"
+      >
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        Email
+      </a>
+    </div>
+  </article>
+
+  <article class="people-member-card">
+    <div class="people-member-photo">
+      <img
+        src="{{ '/images/people/yihan-chen.jpg' | relative_url }}"
+        alt="Yihan Chen"
+        loading="lazy"
+      >
+    </div>
+
+    <div class="people-member-content">
+      <span class="people-member-role">
+        PhD Student
+      </span>
+
+      <h3>Yihan Chen</h3>
+
+      <p class="people-member-term">
+        Fall 2026 to Present
+      </p>
+
+      <p class="people-member-focus">
+        AI-driven modeling of individual and collective decision-making under natural hazard risk.
+      </p>
+
+      <div class="people-member-tags">
+        <span>Human Decisions</span>
+        <span>AI Modeling</span>
+      </div>
+
+      <a
+        class="people-member-email"
+        href="mailto:yihan.chen@wsu.edu"
+      >
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        Email
+      </a>
+    </div>
+  </article>
+
+</div>
 
 ## Alumni
 
