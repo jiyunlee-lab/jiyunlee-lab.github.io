@@ -251,7 +251,7 @@ author_profile: false
 ## Alumni
 
 <p class="people-alumni-intro">
-  Former SHAPE Lab researchers continue their work across academia, engineering, risk analysis, and infrastructure resilience.
+  Former SHAPE Lab researchers continue their work across academia and industry.
 </p>
 
 <div class="people-alumni-grid">
