@@ -154,7 +154,7 @@ author_profile: false
       </p>
 
       <div class="people-member-tags">
-        <span>Hazard Modeling</span>
+        <span>Wildfire Modeling</span>
         <span>AI Modeling</span>
         <span>Vulnerability</span>
       </div>
