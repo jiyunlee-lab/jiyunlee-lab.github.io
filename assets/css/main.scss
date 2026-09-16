@@ -1774,3 +1774,128 @@
     font-size: 0.58rem;
   }
 }
+
+/* =========================================================
+   Alumni cards
+   ========================================================= */
+
+.people-alumni-intro {
+  max-width: 52rem;
+  margin: 0 0 1.5rem;
+  color: #6d665d;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.people-alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+.people-alumni-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.05rem 1.1rem;
+  background: #fbf8f1;
+  border: 1px solid #e2d8c8;
+  border-left: 3px solid #9daa94;
+  border-radius: 9px;
+  box-shadow: 0 3px 9px rgba(70, 60, 45, 0.04);
+}
+
+.people-alumni-card h3 {
+  margin: 0 0 0.3rem;
+  color: #c65332;
+  font-size: 1.08rem;
+  line-height: 1.3;
+}
+
+.people-alumni-degree {
+  margin: 0 0 0.7rem;
+  color: #6c7863;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.people-alumni-position {
+  margin: 0 0 0.75rem;
+  padding: 0.6rem 0.7rem;
+  color: #5d574f;
+  background: #f1f3ed;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.people-alumni-position strong {
+  color: #6c7863;
+}
+
+.people-alumni-research {
+  margin: 0 0 0.85rem;
+  color: #575149;
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.people-alumni-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: auto;
+}
+
+.people-alumni-tags span {
+  padding: 0.22rem 0.45rem;
+  color: #6c7863;
+  background: #f1f3ed;
+  border: 1px solid #d8ded3;
+  border-radius: 999px;
+  font-size: 0.61rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.people-undergraduate-title {
+  margin: 0 0 0.8rem;
+  color: #4e4942;
+  font-size: 1.1rem;
+}
+
+.people-undergraduate-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.people-undergraduate-list li {
+  padding: 0.5rem 0.75rem;
+  color: #5d574f;
+  background: #f1f3ed;
+  border: 1px solid #d8ded3;
+  border-radius: 7px;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+/* Mobile alumni layout */
+@media (max-width: 48em) {
+  .people-alumni-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .people-alumni-card {
+    padding: 1rem;
+  }
+
+  .people-alumni-intro {
+    font-size: 0.9rem;
+  }
+}
