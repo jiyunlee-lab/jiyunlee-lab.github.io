@@ -63,12 +63,29 @@ author_profile: false
     <h4>Selected Honors</h4>
 
     <ul class="people-honors">
-      <li>ASCE State of the Art of Civil Engineering Award, 2026</li>
-      <li>PacTrans Outstanding Researcher Award, 2025</li>
-      <li>WSU CEE Outstanding Junior Faculty Research Award, 2024</li>
-      <li>NSF CAREER Award, 2023</li>
-      <li>Google Research Scholar Award, 2022</li>
-      <li>NAE US Frontiers of Engineering alumna</li>
+      <li class="people-honor-featured">
+        <strong>NSF CAREER Award</strong>,&nbsp;2023
+      </li>
+
+      <li class="people-honor-featured">
+        <strong>Google Research Scholar Award</strong>,&nbsp;2022
+      </li>
+
+      <li>
+        ASCE State of the Art of Civil Engineering Award,&nbsp;2026
+      </li>
+
+      <li>
+        PacTrans Outstanding Researcher Award,&nbsp;2025
+      </li>
+
+      <li>
+        WSU CEE Outstanding Junior Faculty Research Award,&nbsp;2024
+      </li>
+
+      <li>
+        NAE US Frontiers of Engineering alumna
+      </li>
     </ul>
   </div>
 </div>
@@ -77,50 +94,61 @@ author_profile: false
 
 **Postdoctoral Scholar**
 
-**Zhujun Wang** — [zhujun.wang1@wsu.edu](mailto:zhujun.wang1@wsu.edu)<br>
+**Zhujun Wang**<br>
+[zhujun.wang1@wsu.edu](mailto:zhujun.wang1@wsu.edu)<br>
 Research Topics: Interdependent Decision-Making between Government and Citizens; Game-Theoretic Model Development
 
 **Graduate Students**
 
-**Abdel-Aziz Sanad** — [abdel-aziz.sanad@wsu.edu](mailto:abdel-aziz.sanad@wsu.edu)<br>
-PhD Student (Spring 2023 – Present)<br>
-Research Topics: Physics- and Data-driven Hurricane Vulnerability Assessment; Wildfire Simulation Modeling
+**Abdel-Aziz Sanad**<br>
+[abdel-aziz.sanad@wsu.edu](mailto:abdel-aziz.sanad@wsu.edu)<br>
+PhD Student, Spring 2023 to Present<br>
+Research Topics: Physics- and Data-Driven Hurricane Vulnerability Assessment; Wildfire Simulation Modeling
 
-**Md. Mehedi Hasan** — [mdmehedi.hasan@wsu.edu](mailto:mdmehedi.hasan@wsu.edu)<br>
-MS Student (Fall 2025 – Present)<br>
-Research Topics: Wildfire-Related Power Outage Prediction Model Using Satellite Imagery
+**Md. Mehedi Hasan**<br>
+[mdmehedi.hasan@wsu.edu](mailto:mdmehedi.hasan@wsu.edu)<br>
+MS Student, Fall 2025 to Present<br>
+Research Topics: Wildfire-Related Power Outage Prediction Using Satellite Imagery
 
-**Yihan Chen** — [yihan.chen@wsu.edu](mailto:yihan.chen@wsu.edu)<br>
-PhD Student (Fall 2026 – Present)<br>
+**Yihan Chen**<br>
+[yihan.chen@wsu.edu](mailto:yihan.chen@wsu.edu)<br>
+PhD Student, Fall 2026 to Present<br>
 Research Topics: AI-Driven Modeling of Human Decision-Making Under Natural Hazards
 
-## Former Group Members
+## Alumni
 
-**Former Postdoctoral Scholars and Graduate Students**
+**Postdoctoral and Graduate Alumni**
 
-**Nasimeh Rashidi** — Ph.D. (Summer 2026)<br>
+**Nasimeh Rashidi**<br>
+Ph.D., Summer 2026<br>
 Research Topics: Dynamic Wildfire Risk Assessment through Deep Learning; Wildfire Risk Management Behaviors
 
-**Vishnupriya Jonnalagadda** — Ph.D. (May 2025)<br>
+**Vishnupriya Jonnalagadda**<br>
+Ph.D., May 2025<br>
 Currently Postdoctoral Scholar at Florida State University<br>
 Research Topics: Advances in Uncertainty Analysis for Infrastructure Risk and Resilience Assessment
 
-**Fangjiao Ma** — Ph.D. (Dec. 2023)<br>
+**Fangjiao Ma**<br>
+Ph.D., December 2023<br>
 Currently Postdoctoral Research Fellow at the University of Nevada, Reno<br>
 Research Topics: Wildfire Risk and Resilience Assessment; Homeowner Proactive Actions
 
-**Jie Zhao** — Ph.D. (Aug. 2022)<br>
+**Jie Zhao**<br>
+Ph.D., August 2022<br>
 Currently Engineer at Verisk Analytics<br>
 Research Topics: Supply Chain Resilience; Catastrophe Insurance
 
-**Seyed Hooman Ghasemi** — Postdoctoral Scholar (Feb. 2020 – Jan. 2021)<br>
-Currently Assistant Professor at University of Alabama at Birmingham<br>
+**Seyed Hooman Ghasemi**<br>
+Postdoctoral Scholar, February 2020 to January 2021<br>
+Currently Assistant Professor at the University of Alabama at Birmingham<br>
 Research Topics: Structural Reliability; Transportation Resilience
 
-**Stanley Kouassi** — M.S. (Dec. 2019), Fulbright Scholarship<br>
+**Stanley Kouassi**<br>
+M.S., December 2019; Fulbright Scholarship<br>
 Currently Project Manager at Louis Berger International<br>
 Research Topics: Life-Cycle Assessment Under Uncertainty
 
-**Former Undergraduate Researchers**
+**Undergraduate Alumni**
+
 - Jane Gorski
 - Nathan Dickerson
