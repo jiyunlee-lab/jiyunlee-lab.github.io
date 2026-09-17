@@ -2833,3 +2833,72 @@
     height: 150px;
   }
 }
+
+/* ============================================================
+   PEOPLE PAGE: MOBILE VERTICAL MEMBER CARDS
+   ============================================================ */
+
+@media (max-width: 700px) {
+  .people-member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.35rem 1.2rem;
+  }
+
+  .people-member-photo {
+    flex: none;
+    width: 160px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .people-member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .people-member-content {
+    width: 100%;
+    min-width: 0;
+    text-align: center;
+  }
+
+  .people-member-role {
+    display: inline-flex;
+    margin: 0 auto 0.55rem;
+  }
+
+  .people-member-content h3 {
+    margin: 0 0 0.3rem;
+    text-align: center;
+  }
+
+  .people-member-period {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .people-member-focus {
+    margin: 0.8rem 0 1rem;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .people-member-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+  }
+
+  .people-member-email {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
