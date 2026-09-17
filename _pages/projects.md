@@ -6,15 +6,13 @@ author_profile: false
 
 <div class="projects-page">
 
-  <header class="projects-intro">
-    <p class="projects-eyebrow">SHAPE Lab Research</p>
-    <h1>Projects</h1>
-    <p class="projects-lead">
-      Our projects integrate natural hazard modeling, artificial intelligence,
-      infrastructure resilience, and human decision-making to support safer
-      and more resilient communities.
-    </p>
-  </header>
+<header class="projects-intro">
+  <p class="projects-lead">
+    Our projects integrate natural hazard modeling, artificial intelligence,
+    infrastructure resilience, and human decision-making to support safer
+    and more resilient communities.
+  </p>
+</header>
 
   <section class="projects-section" aria-labelledby="featured-projects-title">
 
