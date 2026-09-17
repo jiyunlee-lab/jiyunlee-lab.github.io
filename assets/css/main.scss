@@ -2703,3 +2703,29 @@
     width: 100%;
   }
 }
+
+/* Reduce 2 × 2 homepage research card size */
+
+.home-research-tile {
+  width: 100%;
+  max-width: 285px;
+  justify-self: center;
+}
+
+.home-research-tile img {
+  width: 100%;
+  max-width: 285px;
+}
+
+
+/* Allow slightly wider cards on small screens */
+
+@media (max-width: 680px) {
+  .home-research-tile {
+    max-width: 320px;
+  }
+
+  .home-research-tile img {
+    max-width: 320px;
+  }
+}
