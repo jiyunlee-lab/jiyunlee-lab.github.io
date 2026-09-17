@@ -2729,3 +2729,67 @@
     max-width: 320px;
   }
 }
+
+/* ============================================================
+   HOMEPAGE RESEARCH GRID: FINAL RESPONSIVE LAYOUT
+   Desktop 1 × 4, tablet 2 × 2, mobile 1 column
+   ============================================================ */
+
+.home-research-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.home-research-tile {
+  width: 100%;
+  max-width: none;
+  justify-self: stretch;
+}
+
+.home-research-tile img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+  image-rendering: auto;
+}
+
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .home-research-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem;
+  }
+
+  .home-research-tile {
+    width: 100%;
+    max-width: 320px;
+    justify-self: center;
+  }
+
+  .home-research-tile img {
+    max-width: 320px;
+  }
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .home-research-grid {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+  }
+
+  .home-research-tile {
+    max-width: 340px;
+  }
+
+  .home-research-tile img {
+    max-width: 340px;
+  }
+}
