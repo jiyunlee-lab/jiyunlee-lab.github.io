@@ -97,7 +97,7 @@ author_profile: false
   <article class="people-member-card">
     <div class="people-member-photo">
       <img
-        src="{{ '/images/people/zhujun-wang.jpg' | relative_url }}"
+        src="{{ '/images/people/zhujun-wang-web.jpg' | relative_url }}"
         alt="Zhujun Wang"
         loading="lazy"
       >
@@ -132,7 +132,7 @@ author_profile: false
   <article class="people-member-card">
     <div class="people-member-photo">
       <img
-        src="{{ '/images/people/abdel-aziz-sanad.jpg' | relative_url }}"
+        src="{{ '/images/people/abdel-aziz-sanad-web.jpg' | relative_url }}"
         alt="Abdel-Aziz Sanad"
         loading="lazy"
       >
@@ -172,7 +172,7 @@ author_profile: false
   <article class="people-member-card">
     <div class="people-member-photo">
       <img
-        src="{{ '/images/people/yihan-chen.jpg' | relative_url }}"
+        src="{{ '/images/people/yihan-chen-web.jpg' | relative_url }}"
         alt="Yihan Chen"
         loading="lazy"
       >
@@ -211,7 +211,7 @@ author_profile: false
   <article class="people-member-card">
     <div class="people-member-photo">
       <img
-        src="{{ '/images/people/md-mehedi-hasan.jpg' | relative_url }}"
+        src="{{ '/images/people/md-mehedi-hasan-web.jpg' | relative_url }}"
         alt="Md. Mehedi Hasan"
         loading="lazy"
       >
