@@ -2640,3 +2640,15 @@
     box-shadow: 0 4px 12px rgba(70, 59, 46, 0.08);
   }
 }
+
+/* Improve homepage research thumbnail rendering */
+
+.home-research-card img,
+.research-glance-card img,
+.research-theme-card img {
+  image-rendering: auto;
+  object-fit: cover;
+  object-position: center;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
