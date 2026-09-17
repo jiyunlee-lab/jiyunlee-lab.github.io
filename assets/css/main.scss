@@ -2617,3 +2617,26 @@
     padding: 0.27rem 0.55rem;
   }
 }
+
+/* Refine desktop project image panel */
+
+@media (min-width: 761px) {
+  .project-card {
+    background:
+      linear-gradient(
+        to right,
+        #f1f3ed 0,
+        #f1f3ed 36%,
+        var(--project-cream) 36%,
+        var(--project-cream) 100%
+      );
+  }
+
+  .project-card__image {
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    border: 1px solid #d8ddd3;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(70, 59, 46, 0.08);
+  }
+}
