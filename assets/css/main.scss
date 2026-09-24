@@ -2902,3 +2902,97 @@
     margin-top: 1rem;
   }
 }
+
+/* ============================================================
+   COMPACT ACTIVE PROJECTS
+   ============================================================ */
+
+.projects-section--compact {
+  margin-top: 3rem;
+}
+
+.compact-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem;
+}
+
+.compact-project-card {
+  min-width: 0;
+  padding: 1.25rem 1.3rem 1.2rem;
+  background: #f2f5ef;
+  border: 1px solid #d7dfd2;
+  border-top: 4px solid var(--project-sage);
+  border-radius: 9px;
+  box-shadow: 0 4px 12px rgba(70, 59, 46, 0.05);
+}
+
+/* Warm variation for the second project */
+
+.compact-project-card:nth-child(2) {
+  background: #fbf2ec;
+  border-color: #ead8cc;
+  border-top-color: var(--project-terracotta);
+}
+
+.compact-project-card h3 {
+  margin: 0 0 0.65rem;
+  color: var(--project-terracotta);
+  font-size: 1.08rem;
+  line-height: 1.4;
+}
+
+.compact-project-agency {
+  margin: 0 0 0.9rem;
+  color: var(--project-sage);
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.compact-project-summary {
+  margin: 0 0 1rem;
+  color: var(--project-text);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.compact-project-leadership {
+  margin: auto 0 0;
+  padding-top: 0.8rem;
+  color: var(--project-muted);
+  border-top: 1px solid rgba(112, 107, 99, 0.2);
+  font-size: 0.83rem;
+  line-height: 1.55;
+}
+
+.compact-project-leadership strong {
+  color: var(--project-text);
+}
+
+.project-status--upcoming {
+  background: var(--project-sage);
+}
+
+/* Stack compact cards on tablets and phones */
+
+@media (max-width: 850px) {
+  .compact-project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 430px) {
+  .compact-project-card {
+    padding: 1.05rem 1rem;
+  }
+
+  .compact-project-card h3 {
+    font-size: 1rem;
+  }
+
+  .compact-project-summary {
+    font-size: 0.9rem;
+  }
+}
+
