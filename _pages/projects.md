@@ -514,11 +514,14 @@ author_profile: false
 
   <div class="compact-project-grid">
 
+    <!-- Project 1: Traffic Enforcement Planning -->
+
     <article class="compact-project-card">
       <div class="project-card__topline">
         <span class="project-status project-status--upcoming">
           Upcoming
         </span>
+
         <span class="project-period">
           October 2026 to October 2027
         </span>
@@ -547,13 +550,20 @@ author_profile: false
 
       <p class="compact-project-leadership">
         <strong>Project Leadership:</strong>
-        Ji Yun Lee (PI); Zhujun Wang (Co-PI)
+        Ji Yun Lee, Principal Investigator; Zhujun Wang,
+        Co-Principal Investigator
       </p>
     </article>
 
+
+    <!-- Project 2: Timber Supply Chain Resilience -->
+
     <article class="compact-project-card">
       <div class="project-card__topline">
-        <span class="project-status">Ongoing</span>
+        <span class="project-status">
+          Ongoing
+        </span>
+
         <span class="project-period">
           March 2026 to June 2027
         </span>
@@ -566,7 +576,15 @@ author_profile: false
       </h3>
 
       <p class="compact-project-agency">
-        Pacific Northwest Transportation Consortium (PacTrans)
+        U.S. Department of Transportation Regional University
+        Transportation Center,
+        <a
+          href="https://research.washington.edu/centers/pacific-northwest-transportation-consortium-pactrans/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Pacific Northwest Transportation Consortium (PacTrans)
+        </a>
       </p>
 
       <p class="compact-project-summary">
@@ -581,7 +599,8 @@ author_profile: false
 
       <p class="compact-project-leadership">
         <strong>Project Leadership:</strong>
-        Ji Yun Lee (PI); Zhujun Wang, (Co-PI)
+        Ji Yun Lee, Principal Investigator; Zhujun Wang,
+        Co-Principal Investigator
       </p>
     </article>
 
