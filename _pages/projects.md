@@ -550,8 +550,7 @@ author_profile: false
 
       <p class="compact-project-leadership">
         <strong>Project Leadership:</strong>
-        Ji Yun Lee, Principal Investigator; Zhujun Wang,
-        Co-Principal Investigator
+        Ji Yun Lee (PI); Zhujun Wang (Co-PI)
       </p>
     </article>
 
@@ -599,8 +598,7 @@ author_profile: false
 
       <p class="compact-project-leadership">
         <strong>Project Leadership:</strong>
-        Ji Yun Lee, Principal Investigator; Zhujun Wang,
-        Co-Principal Investigator
+        Ji Yun Lee (PI); Zhujun Wang (Co-PI)
       </p>
     </article>
 
