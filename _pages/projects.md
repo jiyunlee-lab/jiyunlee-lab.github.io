@@ -504,6 +504,91 @@ author_profile: false
        current projects have been selected.
        ========================================================= -->
 
+<section
+  class="projects-section projects-section--compact"
+  aria-labelledby="other-projects-title"
+>
+  <div class="projects-section-heading">
+    <h2 id="other-projects-title">Other Active Projects</h2>
+  </div>
+
+  <div class="compact-project-grid">
+
+    <article class="compact-project-card">
+      <div class="project-card__topline">
+        <span class="project-status project-status--upcoming">
+          Upcoming
+        </span>
+        <span class="project-period">
+          October 2026 to October 2027
+        </span>
+      </div>
+
+      <h3>
+        Advancing Strategic Traffic Enforcement Planning through
+        Behaviorally Informed and Spatially Explicit Modeling
+      </h3>
+
+      <p class="compact-project-agency">
+        U.S. Department of Transportation Tier 1 University
+        Transportation Center for Healthy and Durable
+        Transportation (CHDT)
+      </p>
+
+      <p class="compact-project-summary">
+        This project develops a behaviorally informed,
+        exposure-normalized, and spatially explicit framework for
+        allocating traffic enforcement. By linking enforcement
+        strategies to driver behavior and crash reduction, the
+        resulting decision-support tool will identify corridor-level
+        enforcement intensities that maximize injury reduction under
+        budget constraints.
+      </p>
+
+      <p class="compact-project-leadership">
+        <strong>Project Leadership:</strong>
+        Ji Yun Lee, Principal Investigator; Zhujun Wang,
+        Co-Principal Investigator
+      </p>
+    </article>
+
+    <article class="compact-project-card">
+      <div class="project-card__topline">
+        <span class="project-status">Ongoing</span>
+        <span class="project-period">
+          March 2026 to June 2027
+        </span>
+      </div>
+
+      <h3>
+        Enhancing Timber Supply Chain Resilience for Post-Wildfire
+        Reconstruction through Multimodal Mobility and Collaborative
+        Stakeholder Coordination in the Pacific Northwest
+      </h3>
+
+      <p class="compact-project-agency">
+        Pacific Northwest Transportation Consortium (PacTrans)
+      </p>
+
+      <p class="compact-project-summary">
+        This project develops a cloud-based coordination system to
+        strengthen timber supply chain resilience for post-wildfire
+        reconstruction in the Pacific Northwest. By monitoring
+        disruptions and coordinating timber movement across road,
+        rail, and maritime transportation, the system will support
+        flexible resource deployment and a more responsive
+        post-wildfire logistics network.
+      </p>
+
+      <p class="compact-project-leadership">
+        <strong>Project Leadership:</strong>
+        Ji Yun Lee, Principal Investigator; Zhujun Wang,
+        Co-Principal Investigator
+      </p>
+    </article>
+
+  </div>
+</section>
 
   <!-- =========================================================
        FUTURE SECTION: SELECTED PAST PROJECTS
