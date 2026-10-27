@@ -272,8 +272,6 @@ author_profile: false
         </div>
 
         <details class="project-details">
-
-        <details class="project-details">
           <summary>View project details</summary>
 
           <div class="project-details__body">
