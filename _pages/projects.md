@@ -257,6 +257,22 @@ author_profile: false
           <span>AI and Machine Learning</span>
         </div>
 
+        <div class="project-video-link">
+          <span class="project-video-link__label">Project Video</span>
+
+          <a
+            href="https://www.youtube.com/watch?v=8zoh7YoI0nQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Watch the Wildfire Resilient Power Grid Infrastructure Planning project video on YouTube"
+          >
+            <span aria-hidden="true">▶</span>
+            Watch on YouTube
+          </a>
+        </div>
+
+        <details class="project-details">
+
         <details class="project-details">
           <summary>View project details</summary>
 
