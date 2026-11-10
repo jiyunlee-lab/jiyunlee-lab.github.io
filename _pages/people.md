@@ -264,6 +264,11 @@ author_profile: false
       Ph.D., Summer 2026
     </p>
 
+    <p class="people-alumni-position">
+      <strong>Incoming position:</strong><br>
+      Wildfire Researcher, the Insurance Institute for Business &amp; Home Safety (IBHS), starting January 2027
+    </p>
+
     <p class="people-alumni-research">
       Dynamic wildfire risk assessment through deep learning and wildfire risk management behaviors.
     </p>
@@ -283,7 +288,7 @@ author_profile: false
 
     <p class="people-alumni-position">
       <strong>Current position:</strong>
-      Postdoctoral Scholar at Florida State University
+      Civil Engineer, Applied Research Associates (ARA)
     </p>
 
     <p class="people-alumni-research">
@@ -305,7 +310,7 @@ author_profile: false
 
     <p class="people-alumni-position">
       <strong>Current position:</strong>
-      Postdoctoral Research Fellow at the University of Nevada, Reno
+      Postdoctoral Research Fellow, the University of Nevada, Reno
     </p>
 
     <p class="people-alumni-research">
@@ -327,7 +332,7 @@ author_profile: false
 
     <p class="people-alumni-position">
       <strong>Current position:</strong>
-      Engineer at Verisk Analytics
+      Engineer, Verisk Analytics
     </p>
 
     <p class="people-alumni-research">
@@ -349,7 +354,7 @@ author_profile: false
 
     <p class="people-alumni-position">
       <strong>Current position:</strong>
-      Assistant Professor at the University of Alabama at Birmingham
+      Assistant Professor, the University of Alabama at Birmingham
     </p>
 
     <p class="people-alumni-research">
@@ -371,7 +376,7 @@ author_profile: false
 
     <p class="people-alumni-position">
       <strong>Current position:</strong>
-      Project Manager at Louis Berger International
+      Project Manager, Louis Berger International
     </p>
 
     <p class="people-alumni-research">
