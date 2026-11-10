@@ -265,7 +265,7 @@ author_profile: false
     </p>
 
     <p class="people-alumni-position">
-      <strong>Incoming position:</strong><br>
+      <strong>Incoming position:</strong>
       Wildfire Researcher, the Insurance Institute for Business &amp; Home Safety (IBHS), starting January 2027
     </p>
 
@@ -354,7 +354,7 @@ author_profile: false
 
     <p class="people-alumni-position">
       <strong>Current position:</strong>
-      Assistant Professor, the University of Alabama at Birmingham
+      Assistant Professor, University of Alabama at Birmingham
     </p>
 
     <p class="people-alumni-research">
