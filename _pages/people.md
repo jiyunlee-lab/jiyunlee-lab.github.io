@@ -266,7 +266,7 @@ author_profile: false
 
     <p class="people-alumni-position">
       <strong>Incoming position:</strong>
-      Wildfire Researcher, the Insurance Institute for Business &amp; Home Safety (IBHS), starting January 2027
+      Wildfire Researcher, Insurance Institute for Business &amp; Home Safety (IBHS), starting January 2027
     </p>
 
     <p class="people-alumni-research">
