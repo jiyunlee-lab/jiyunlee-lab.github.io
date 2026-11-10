@@ -310,7 +310,7 @@ author_profile: false
 
     <p class="people-alumni-position">
       <strong>Current position:</strong>
-      Postdoctoral Research Fellow, the University of Nevada, Reno
+      Postdoctoral Research Fellow, University of Nevada, Reno
     </p>
 
     <p class="people-alumni-research">
